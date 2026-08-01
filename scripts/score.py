@@ -20,7 +20,7 @@ OUT_PATH = ROOT / "scored.json"
 
 API_URL = "https://api.anthropic.com/v1/messages"
 API_KEY = os.environ["ANTHROPIC_API_KEY"]
-MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")  # 量が多ければ haiku に
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 
 SYSTEM = f"""あなたは研究者の論文キュレーターです。以下の興味プロファイルに照らして、
 渡された論文が「その研究者にとって面白いか」を厳しめに 0-10 で採点します。
