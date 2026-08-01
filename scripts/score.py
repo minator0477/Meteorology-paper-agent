@@ -3,11 +3,14 @@
 「面白さ」を 0-10 で採点させる。閾値以上を scored.json に残す。
 - 構造化出力(JSON配列)を要求し、安全にパースする
 - 件数が多い時は batch_size 件ずつに分割
+- 閾値未満も含む全候補の採点結果を history/ 以下に Markdown で記録する
+  （追加の API 呼び出しは発生しない。既に受け取った結果を書き出すだけ）
 """
 import json
 import os
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 import requests
@@ -18,6 +21,7 @@ CONFIG = yaml.safe_load((ROOT / "config" / "sources.yml").read_text(encoding="ut
 INTERESTS = (ROOT / "config" / "interests.md").read_text(encoding="utf-8")
 CAND_PATH = ROOT / "candidates.json"
 OUT_PATH = ROOT / "scored.json"
+HISTORY_DIR = ROOT / "history"
 
 API_URL = "https://api.anthropic.com/v1/messages"
 API_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -72,6 +76,46 @@ def call_claude(batch: list[dict]) -> list[dict]:
         return []
 
 
+def write_history_markdown(candidates: list[dict], verdicts_by_id: dict[str, dict],
+                            threshold: int, out_path: Path) -> None:
+    """閾値未満も含めた全候補の採点結果を Markdown で記録する。"""
+    rows = []
+    for c in candidates:
+        v = verdicts_by_id.get(c["id"])
+        score = v.get("score") if v else None
+        rows.append({
+            "score": int(score) if score is not None else -1,
+            "score_display": str(score) if score is not None else "N/A",
+            "notified": "✅" if score is not None and int(score) >= threshold else "",
+            "title": c["title"],
+            "journal": c["journal"],
+            "theme": (v or {}).get("theme", "-"),
+            "reason": (v or {}).get("reason", "(採点結果の取得に失敗)"),
+            "url": c["url"],
+        })
+    rows.sort(key=lambda r: r["score"], reverse=True)
+
+    notified = sum(1 for r in rows if r["notified"])
+    lines = [
+        f"# 論文スコア一覧 - {date.today().isoformat()}",
+        "",
+        f"全 {len(rows)} 件中 {notified} 件が閾値（{threshold}点以上）でDiscordに通知されました。",
+        "",
+        "| スコア | 通知 | タイトル | ジャーナル | テーマ | 理由 |",
+        "|---|---|---|---|---|---|",
+    ]
+    for r in rows:
+        title = f"[{r['title']}]({r['url']})".replace("|", "\\|")
+        reason = r["reason"].replace("|", "\\|").replace("\n", " ")
+        journal = r["journal"].replace("|", "\\|")
+        lines.append(f"| {r['score_display']} | {r['notified']} | {title} | "
+                     f"{journal} | {r['theme']} | {reason} |")
+
+    HISTORY_DIR.mkdir(exist_ok=True)
+    out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"wrote {len(rows)} rows -> {out_path.relative_to(ROOT)}")
+
+
 def main() -> None:
     candidates = json.loads(CAND_PATH.read_text(encoding="utf-8"))
     if not candidates:
@@ -86,6 +130,10 @@ def main() -> None:
         verdicts += call_claude(candidates[i:i + n])
 
     threshold = int(CONFIG["min_score"])
+    verdicts_by_id = {v["id"]: v for v in verdicts if v.get("id")}
+    write_history_markdown(candidates, verdicts_by_id, threshold,
+                            HISTORY_DIR / f"{date.today().isoformat()}.md")
+
     kept = []
     for v in verdicts:
         c = by_id.get(v.get("id"))

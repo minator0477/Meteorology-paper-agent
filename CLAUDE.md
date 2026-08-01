@@ -19,6 +19,7 @@ scripts/report.py
 config/sources.yml
 config/interests.md
 state/seen.json                      # committed back by the workflow after each run
+history/YYYY-MM-DD.md                # committed back by the workflow after each run
 ```
 `fetch.py` / `score.py` / `report.py` all compute `ROOT = Path(__file__).resolve().parent.parent`,
 i.e. they assume they run from `scripts/` one level below the repo root — don't move them without
@@ -36,8 +37,10 @@ Three sequential scripts, each reading the previous step's JSON output:
 2. **`score.py`** — sends `candidates.json` to the Anthropic Messages API in batches (`batch_size`
    from `sources.yml`), with `interests.md` embedded in the system prompt as the scoring rubric.
    Expects a strict JSON array back (`id`, `score` 0-10, `reason`, `theme`); parses defensively and
-   skips batches that fail to parse. Keeps only papers scoring >= `min_score`, sorted descending.
-   Writes `scored.json`.
+   skips batches that fail to parse. Writes **every** candidate's verdict (including below-threshold
+   ones) to `history/<today>.md` as a Markdown table — this is a free byproduct of the API calls
+   already made, not an extra request. Then keeps only papers scoring >= `min_score`, sorted
+   descending, and writes `scored.json`.
 3. **`report.py`** — posts `scored.json` to a Discord webhook as embeds (color-coded by `theme`,
    max 10 embeds per message, chunked with a 1s delay between messages to respect rate limits).
    On success, appends the reported paper IDs into `state/seen.json` so they aren't re-reported.
