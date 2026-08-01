@@ -2,7 +2,7 @@ name: paper-digest
 
 on:
   schedule:
-    - cron: "0 0 * * 1"      # 毎週月曜 00:00 UTC = 月曜 09:00 JST
+    - cron: "0 8 * * 5"      # 毎週金曜 08:00 UTC = 金曜 17:00 JST
   workflow_dispatch: {}       # 手動実行も可
 
 permissions:
