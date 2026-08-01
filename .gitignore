@@ -1,0 +1,4 @@
+candidates.json
+scored.json
+__pycache__/
+*.pyc

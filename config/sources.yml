@@ -1,0 +1,35 @@
+# ============================================================
+#  監視対象の設定
+#  - ISSN は電子/冊子どちらでもOK（OpenAlex が名寄せします）
+#  - 著者は必ず OpenAlex author ID（"A" で始まる）で指定。
+#    名前は同姓同名で曖昧なので、下記で一度だけ ID を調べて貼る:
+#      https://api.openalex.org/authors?search=Hisashi%20Nakamura
+#    返ってきた JSON の "id" 末尾（例 https://openalex.org/A5008... の A5008...）を使う
+#  ※ 下の ISSN はコア誌の例。念のため各誌の公式ページで確認してください。
+# ============================================================
+
+journals:
+  issns:
+    - "2698-4016"   # Weather and Climate Dynamics (WCD)
+    - "0894-8755"   # Journal of Climate
+    - "0022-4928"   # Journal of the Atmospheric Sciences (JAS)
+    - "0027-0644"   # Monthly Weather Review (MWR)
+    - "0094-8276"   # Geophysical Research Letters (GRL)
+    - "0026-1165"   # Journal of the Meteorological Society of Japan (JMSJ)
+    - "1349-6476"   # SOLA
+
+authors:
+  ids:
+    # 例: 差し替えてください（複数可）
+    # - "A5008001234"
+    # - "A5008005678"
+    []
+
+# 直近何日ぶんを対象にするか（cron 頻度に合わせる。週次なら 8〜10 が目安）
+lookback_days: 10
+
+# Claude の 0-10 スコアで、これ以上を「面白そう」として Discord に流す
+min_score: 6
+
+# 1 回の Claude 呼び出しに詰める候補件数（多すぎると精度が落ちるので分割）
+batch_size: 25

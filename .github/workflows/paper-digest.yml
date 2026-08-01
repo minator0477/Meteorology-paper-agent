@@ -1,0 +1,46 @@
+name: paper-digest
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"      # 毎週月曜 00:00 UTC = 月曜 09:00 JST
+  workflow_dispatch: {}       # 手動実行も可
+
+permissions:
+  contents: write             # seen.json をコミットバックするため
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch candidates (OpenAlex)
+        env:
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+        run: python scripts/fetch.py
+
+      - name: Score with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-sonnet-5
+        run: python scripts/score.py
+
+      - name: Report to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scripts/report.py
+
+      - name: Commit seen store
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          git diff --staged --quiet || git commit -m "chore: update seen store [skip ci]"
+          git push
