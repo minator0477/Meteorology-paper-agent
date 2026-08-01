@@ -7,6 +7,7 @@
 import json
 import os
 import re
+import sys
 from pathlib import Path
 
 import requests
@@ -59,6 +60,8 @@ def call_claude(batch: list[dict]) -> list[dict]:
         "content-type": "application/json",
     }
     r = requests.post(API_URL, headers=headers, json=body, timeout=120)
+    if not r.ok:
+        print(f"Anthropic API error {r.status_code}: {r.text}", file=sys.stderr)
     r.raise_for_status()
     text = "".join(b.get("text", "") for b in r.json().get("content", [])
                    if b.get("type") == "text")
