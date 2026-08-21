@@ -1,2 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 requests>=2.31
 PyYAML>=6.0
+torch>=2.2
+sentence-transformers>=3.0
+numpy>=1.26
+anthropic>=0.40

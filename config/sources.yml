@@ -28,8 +28,32 @@ authors:
 # 直近何日ぶんを対象にするか（cron 頻度に合わせる。週次なら 8〜10 が目安）
 lookback_days: 10
 
-# Claude の 0-10 スコアで、これ以上を「面白そう」として Discord に流す
+# 埋め込みベースの 0-10 スコアで、これ以上を「面白そう」として Discord に流す
+# （embedding セクションの similarity_low/high で校正した後の値。history/*.md で
+#  実際のスコア分布を見ながら調整する）
 min_score: 6
 
-# 1 回の Claude 呼び出しに詰める候補件数（多すぎると精度が落ちるので分割）
+# 埋め込み計算時に一度に処理する候補件数（メモリ効率のためのバッチサイズ。
+# scripts/score.py が SentenceTransformer.encode(batch_size=...) に渡す）
 batch_size: 25
+
+# scripts/score.py が使う埋め込みモデルとスコア校正のパラメータ
+embedding:
+  # interests.md（日本語）と論文の title/abstract（英語）を同じ空間で比較するため
+  # 多言語対応モデルを既定にしている。変更すると初回実行時にモデルの再ダウンロードが発生する
+  model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  # コサイン類似度 -> 0-10 スコアへの線形マッピングの下限/上限。
+  # similarity_low 以下は score 0（theme は other 扱い）、similarity_high 以上は score 10。
+  # history/*.md に出る実際の類似度分布を見ながら調整すること。
+  similarity_low: 0.05
+  similarity_high: 0.55
+  # Discordの👍/👎リアクションから学習した「テーマ代表ベクトルのずれ」を、
+  # interests.md 由来のベースベクトルにどれだけ強く足し込むか。0で無効
+  # （state/theme_vectors.json が無い/空でも安全にフォールバックする）。
+  feedback_weight: 0.5
+
+# Discordリアクションによるフィードバック収集（scripts/collect_feedback.py）の設定
+feedback:
+  # 投稿から何日以内のリアクションを集計対象にするか。これを過ぎた論文は
+  # state/reported_papers.json から削除され、以後リアクションしても反映されない
+  window_days: 21
