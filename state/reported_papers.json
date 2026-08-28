@@ -583,5 +583,23 @@
     "title": "A Pure Data‐Driven Fully Distributed Model for Spatially Consistent Streamflow Prediction",
     "abstract": "Abstract Streamflow prediction is essential for water resources management and flood mitigation but remains challenging in large basins due to spatial heterogeneity. Machine learning (ML) models have been widely applied to streamflow prediction, typically relying on explicit routing modules, whereas the potential of pure ML models remains underexplored. This study presents a purely ML‐based model (Convolutional Entity‐Aware Long Short‐Term Memory) for fully distributed streamflow prediction. Spatial cross‐validation across 50 gauges in the Amazon Basin yields a median Nash‐Sutcliffe Efficiency of 0.73 and an R 2 of 0.84, comparable to or exceeding benchmark models with routing modules. The model reduces annual peak flow bias (APFB = 0.12) and accurately reproduced spatial autocorrelation patterns (Pearson's r > 0.6, Moran's I > 0.8, and Geary's C < 0.2), indicating spatially consistent grid‐scale discharge predictions. These findings demonstrate the potential of a pure data‐driven ML model for fully distributed streamflow prediction in ungauged basins while ensuring spatial consistency.",
     "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7154022114",
+    "message_id": "1542983474481336403",
+    "theme": "method",
+    "score": 10,
+    "title": "Identifying and Correcting Inhomogeneities in the Near‐Surface Specific Humidity Record",
+    "abstract": "Abstract There are notable discrepancies between near‐surface humidity trends in observational products as compared to climate models. Here, we explore the extent to which the discrepancy can be explained by inhomogeneities in the observational record. To do so, we apply a validated changepoint detection algorithm to the residual between two observational products, the ERA5 reanalysis and HadISDH station‐based product, and a climate model simulation whose circulation is constrained to match the observations. Based on synthetic data tests, the approach is likely to identify changepoints in excess of 0.32 g/kg, and rarely identifies a changepoint when none is present. For ERA5, we identify changepoints across 31% of the global land area; qualitatively similar results are found for HadISDH. Correcting the inhomogeneities reduces, but does not eliminate, the previously identified discrepancy between model simulations and the historical record.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204457190",
+    "message_id": "1542983479950843926",
+    "theme": "seam",
+    "score": 9,
+    "title": "Assimilation of Radar Radial Velocity and Polarimetric Observations Using LETKF within MPAS-JEDI: Development of Assimilation Capabilities and Test with an Afternoon Thunderstorm in Taiwan",
+    "abstract": "Abstract A new parameterized polarimetric radar operator (P-PRO) capable of simulating reflectivity ( Z H ), specific differential phase ( K DP ), and differential reflectivity ( Z DR ) is implemented in the Joint Effort for Data assimilation Integration (JEDI), extending its capability to assimilate polarimetric radar observations. The existing radial-velocity ( v r ) observation operator is combined with P-PRO to enable joint assimilation of multiple radar variables. To evaluate the operator and assess the impacts of each variable, data assimilation experiments for a Taiwan afternoon thunderstorm progressively assimilate Z H , v r , K DP , and Z DR using an MPAS-JEDI LETKF configuration. Each assimilated variable primarily improves its corresponding field at analysis time, while the inclusion of v r and K DP leads to more coherent and better-organized convective structures than reflectivity-only assimilation. Statistical diagnostics indicate systematic improvements relative to NoDA across cycles and enhanced short-range forecast skill, with the clearest reductions in forecast error occurring for directly assimilated variables during the first few forecast hours. K DP and Z DR assimilation further contributes to more observation-consistent polarimetric signatures and improved analysis-time storm structure; some forecast improvements are evident, but they are not robustly separable given the single-case design and the limited number of cycles. Overall, these results validate the P-PRO implementation in JEDI and highlight the potential of polarimetric radar assimilation for improving convective-scale analyses, providing a foundation for future multi-case assessments of forecast impacts.",
+    "reported_date": "2026-08-28"
   }
 ]
