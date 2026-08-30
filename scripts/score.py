@@ -2,12 +2,12 @@
 ステップ2: candidates.json を3段階でピックアップする。
 第1段（キーワード一致）: keywords.yml のいずれかの語がタイトルに含まれる候補は、
   スコア採点なしで即座に「面白そう」として拾う（採否の判断は機械的・無料）。
+  おすすめ理由は常に「キーワード「X」に一致」の定型文で、LLM は呼ばない。
 第2段（LLM 採点、Haiku）: 第1段で拾われなかった残りの候補だけを、タイトル+ジャーナル名のみ
   （abstract は渡さない・軽量に）Claude に渡し、interests.md を基準に「面白さ」を 0-10 で
   採点させる。閾値以上を残す。
-第3段（おすすめ理由生成、Sonnet）: 第1段+第2段で採用が決まった全論文について、今度は
-  abstract も含めて Claude に渡し、おすすめ理由を書かせる（失敗時は各段のフォールバック文言
-  ＝キーワード一致なら「キーワード「X」に一致」、LLM採点なら第2段が返した簡易理由のまま）。
+第3段（おすすめ理由生成、Sonnet）: 第2段で閾値を超えた論文についてのみ、今度は abstract も
+  含めて Claude に渡し、おすすめ理由を書かせる（失敗時は第2段が返した簡易理由のまま）。
 - 構造化出力(JSON配列)を要求し、安全にパースする
 - 件数が多い時は batch_size 件ずつに分割
 - 全段の結果を合わせて、全候補の採否結果を history/ 以下に Markdown で記録する
@@ -120,9 +120,9 @@ def call_claude(batch: list[dict]) -> list[dict]:
 
 
 def call_claude_reasons(batch: list[dict]) -> dict[str, str]:
-    """採用が決まった候補（キーワード一致 + 閾値超えの LLM 採点分）について、
-    abstract も含めて Claude（Sonnet）におすすめ理由を生成させる。
-    失敗時は空 dict を返す（呼び出し側が各段のフォールバック文言のままにする）。"""
+    """LLM 採点（第2段）で閾値を超えた候補について、abstract も含めて
+    Claude（Sonnet）におすすめ理由を生成させる。キーワード一致分はこの関数の対象外
+    （常に定型文のまま）。失敗時は空 dict を返す（呼び出し側が第2段の簡易理由のままにする）。"""
     payload = [{"id": c["id"], "title": c["title"],
                 "journal": c["journal"], "abstract": c["abstract"][:1500]}
                for c in batch]
@@ -267,17 +267,18 @@ def main() -> None:
                           "reason": v.get("reason", ""),  # フォールバック文言（第2段の簡易理由）
                           "theme": v.get("theme", "other")})
 
-    # 第3段: 採用が決まった全論文（キーワード一致＋閾値超え）について、
-    # abstract を含めた情報で Sonnet におすすめ理由を書かせる（失敗時は各段のフォールバックのまま）
-    kept = keyword_kept + llm_kept
-    if kept:
+    # 第3段: LLM採点で閾値を超えた論文についてのみ、abstract を含めた情報で Sonnet に
+    # おすすめ理由を書かせる（失敗時は第2段の簡易理由のまま）。
+    # キーワード一致分は常に「キーワード「X」に一致」の定型文のまま（LLM を呼ばない）。
+    if llm_kept:
         reasons: dict[str, str] = {}
-        for i in range(0, len(kept), n):
-            reasons.update(call_claude_reasons(kept[i:i + n]))
-        for k in kept:
+        for i in range(0, len(llm_kept), n):
+            reasons.update(call_claude_reasons(llm_kept[i:i + n]))
+        for k in llm_kept:
             if k["id"] in reasons:
                 k["reason"] = reasons[k["id"]]
 
+    kept = keyword_kept + llm_kept
     verdicts_by_id = {v["id"]: {**v, "method": "llm"} for v in verdicts if v.get("id")}
     for k in kept:
         entry = {"id": k["id"], "score": k["score"], "reason": k["reason"],

@@ -198,10 +198,11 @@ class TestWriteHistoryMarkdown:
 
 
 class TestMain:
-    def test_keyword_match_bypasses_llm_scoring_and_gets_llm_reason(self, isolate_io, monkeypatch):
+    def test_keyword_match_bypasses_llm_scoring_and_stays_mechanical(self, isolate_io, monkeypatch):
         candidates = [
             make_candidate("W1", "MJO-related teleconnection study"),   # keyword match -> seam
-            make_candidate("W2", "Some unrelated paper about clouds"),  # goes to LLM scoring
+            make_candidate("W2", "Some unrelated paper about clouds"),  # LLM scoring, below threshold
+            make_candidate("W3", "Another unrelated paper about fronts"),  # LLM scoring, above threshold
         ]
         (isolate_io / "candidates.json").write_text(json.dumps(candidates), encoding="utf-8")
 
@@ -210,7 +211,10 @@ class TestMain:
 
         def fake_call_claude(batch):
             call_claude_batches.append([c["id"] for c in batch])
-            return [{"id": "W2", "score": 3, "reason": "not interesting", "theme": "other"}]
+            return [
+                {"id": "W2", "score": 3, "reason": "not interesting", "theme": "other"},
+                {"id": "W3", "score": 8, "reason": "簡易理由", "theme": "other"},
+            ]
 
         def fake_call_claude_reasons(batch):
             reasons_batches.append([c["id"] for c in batch])
@@ -223,17 +227,22 @@ class TestMain:
 
         score.main()
 
-        assert call_claude_batches == [["W2"]]      # LLM 採点は非キーワード一致分のみ
-        assert reasons_batches == [["W1"]]           # 理由生成呼び出しはキーワード一致分のみ
+        assert call_claude_batches == [["W2", "W3"]]  # LLM 採点は非キーワード一致分のみ
+        assert reasons_batches == [["W3"]]             # 理由生成は「LLM採点で閾値超え」分のみ
 
         scored = json.loads((isolate_io / "scored.json").read_text(encoding="utf-8"))
-        assert {p["id"] for p in scored} == {"W1"}   # W2 は閾値未満で不採用
-        w1 = scored[0]
+        assert {p["id"] for p in scored} == {"W1", "W3"}   # W2 は閾値未満で不採用
+
+        w1 = next(p for p in scored if p["id"] == "W1")
         assert w1["score"] == score.KEYWORD_SCORE
         assert w1["theme"] == "seam"
-        assert w1["reason"] == "LLM生成理由:W1"
         assert w1["method"] == "keyword"
         assert w1["matched_keyword"] == "teleconnection"
+        assert w1["reason"] == "キーワード「teleconnection」に一致"  # 常に定型文、LLM は呼ばれない
+
+        w3 = next(p for p in scored if p["id"] == "W3")
+        assert w3["method"] == "llm"
+        assert w3["reason"] == "LLM生成理由:W3"  # こちらは Sonnet 生成の理由に置き換わる
 
     def test_reason_generation_failure_falls_back_to_mechanical_text(self, isolate_io, monkeypatch):
         candidates = [make_candidate("W1", "ENSO variability and prediction")]
@@ -248,6 +257,22 @@ class TestMain:
 
         scored = json.loads((isolate_io / "scored.json").read_text(encoding="utf-8"))
         assert scored[0]["reason"] == "キーワード「ENSO」に一致"
+
+    def test_keyword_only_run_never_calls_reason_generation(self, isolate_io, monkeypatch):
+        """キーワード一致だけの回では、LLM 採点対象がゼロなので Sonnet は一度も呼ばれない。"""
+        candidates = [make_candidate("W1", "ENSO variability and prediction")]
+        (isolate_io / "candidates.json").write_text(json.dumps(candidates), encoding="utf-8")
+
+        reasons_calls = []
+        monkeypatch.setattr(score, "call_claude", lambda batch: [])
+        monkeypatch.setattr(score, "call_claude_reasons",
+                             lambda batch: reasons_calls.append(batch) or {})
+        monkeypatch.setitem(score.CONFIG, "batch_size", 25)
+        monkeypatch.setitem(score.CONFIG, "min_score", 6)
+
+        score.main()
+
+        assert reasons_calls == []
 
     def test_llm_scored_paper_kept_when_above_threshold(self, isolate_io, monkeypatch):
         candidates = [make_candidate("W3", "A paper about clouds and radiation")]

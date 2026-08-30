@@ -41,7 +41,9 @@ Three sequential scripts, each reading the previous step's JSON output:
      up immediately, tagged with that theme, and unconditionally included in the output (not
      subject to `min_score` — no scoring LLM call happens for these). If a candidate matches
      keywords under multiple themes, the theme is chosen by the order themes appear in
-     `keywords.yml` (`seam` first).
+     `keywords.yml` (`seam` first). Its `reason` is always the mechanical
+     `キーワード「<matched keyword>」に一致` — Stage 3 never runs on Stage 1 matches, by design
+     (no LLM call for these at all, keeping the whole stage free).
    - **Stage 2 (LLM scoring, Haiku)** — only candidates that didn't match any keyword go to the
      Anthropic Messages API (model `ANTHROPIC_MODEL`, default `claude-haiku-4-5` — cheap, since
      this runs over every unmatched candidate), in batches (`batch_size` from `sources.yml`).
@@ -50,14 +52,12 @@ Three sequential scripts, each reading the previous step's JSON output:
      array back (`id`, `score` 0-10, `reason`, `theme`); parses defensively and skips batches that
      fail to parse. Only these are filtered against `min_score`; the `reason` it returns here is a
      throwaway fallback (see Stage 3).
-   - **Stage 3 (recommendation reason, Sonnet)** — every paper kept by Stage 1 or Stage 2 (i.e.
-     everything that will actually be posted) goes to a second Claude call (model
-     `ANTHROPIC_REASON_MODEL`, default `claude-sonnet-5` — only runs over the much smaller kept
-     set, so the higher-quality/cost model is affordable here), this time **including the
-     abstract**, asking for a better-written recommendation reason grounded in `interests.md`. On
-     success this overwrites `reason` for that paper; on failure (call or JSON parsing) it's
-     logged and the paper keeps its Stage 1/2 fallback reason (`キーワード「<matched keyword>」に
-     一致` for keyword matches, the Stage 2 throwaway reason for LLM-scored ones) — not fatal.
+   - **Stage 3 (recommendation reason, Sonnet)** — only papers that cleared `min_score` in Stage 2
+     go to a second Claude call (model `ANTHROPIC_REASON_MODEL`, default `claude-sonnet-5` — only
+     runs over the small kept subset, so the higher-quality/cost model is affordable here), this
+     time **including the abstract**, asking for a better-written recommendation reason grounded in
+     `interests.md`. On success this overwrites `reason` for that paper; on failure (call or JSON
+     parsing) it's logged and the paper keeps its Stage 2 throwaway reason — not fatal.
 
    Writes **every** candidate's verdict from all stages (including below-threshold Stage 2 ones)
    to `history/<today>.md` as two separate Markdown tables — a "キーワード一致で採用" section
