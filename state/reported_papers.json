@@ -1,0 +1,605 @@
+[
+  {
+    "id": "W7151499965",
+    "message_id": "1542834192759656469",
+    "theme": "seam",
+    "score": 10,
+    "title": "Interhemispheric perspective on the most extreme surface winds in the storm tracks",
+    "abstract": "Abstract. Extratropical cyclones occur most frequently over the oceans, where they cause the strongest extreme surface winds. In this study, we investigate extreme surface winds during winter months in the Northern and Southern Hemispheres, when the wind storms are the strongest. The analysis focuses on storm tracks over the North Atlantic, North Pacific and Southern Ocean. We use ERA5 reanalysis data to make composites of extratropical cyclones that cause the top 100 most extreme surface wind events from 1979 until 2020 (“top 100 extremes”). We focus on large-scale atmospheric processes and find that the most prominent large-scale feature of the top 100 extremes in each basin is the presence of a pre-existing downstream cyclone a few days before the time of the maximum surface winds. Pre-existing cyclones are situated poleward and eastward of the top 100 extremes and their presence is consistent with strong upper-level winds and potential vorticity anomalies. Differences between the basins and hemispheres are quantitative. The top 100 extremes in the Northern Hemisphere develop in an environment with higher mid-tropospheric Eady growth rates, higher deepening rates and stronger surface wind speeds around the cyclones than in the Southern Hemisphere. Furthermore, we run the general circulation model ISCA with different boundary conditions to investigate their influence on the basin-wide extreme surface winds. We find a strong positive correlation between basin-wide extremes in mid-tropospheric Eady growth rates and surface winds. Zonalizing sea-surface temperatures across tropical and extratropical regions greatly reduces the differences in extreme surface winds between the North Atlantic and North Pacific; inter-hemispheric differences in extreme surface winds between the North Atlantic and Southern Ocean are greatly reduced when sea-surface temperatures are zonalized globally and made hemispherically symmetric, and orography is flat.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7154597051",
+    "message_id": "1542834199063433251",
+    "theme": "seam",
+    "score": 10,
+    "title": "Multi-model high-resolution analysis of Tropical-Like Cyclone Daniel with WRF and ICON: peculiarities and sensitivity to convection schemes",
+    "abstract": "Abstract. Medicane Daniel (September 2023) featured a rapid transition from a baroclinic disturbance to a compact tropical-like vortex, challenging short-range prediction. This study delivers a side-by-side, high-resolution (∼2 km) assessment of Daniel using two state of the art weather forecasting models, WRF and ICON, configured to be as comparable as possible in terms of domain, forcing and vertical discretizations. Seven numerical simulations are compared assessing also sensitivity to the convection scheme: fully explicit, deep-cumulus parameterized and independent shallow-convection options (plus ICON's grayzone setting). Analysis methods include an objective cyclone tracker that combines mean sea-level pressure and lower tropospheric geopotential structure, intensity metrics (central pressure and 10 m wind) along the track, precipitation anomalies regridded against IMERG observations (Integrated Multi-satellitE Retrievals for GPM). Tropical characteristics are examined with Hart's Cyclone Phase Space and Temporal Annular Symmetric Mean (TASM) of equivalent potential temperature and wind to distill three-dimensional, time-mean storm structure during the peak warm-core phase. Both models reproduce Daniel’s life cycle and produce realistic tracks. Intensity of the cyclone sharply varies from simulation to simulation, with different behavior of each model at changes in convection scheme. The study emphasizes the different responses of the two models both in reproducing such an extreme meteorological phenomenon and in the variation of the convection scheme. Practical suggestions are established depending on the case study and the resolution used.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204183466",
+    "message_id": "1542834204981723157",
+    "theme": "seam",
+    "score": 10,
+    "title": "A Dynamical Model of the Inner-Core Evolution of Landfalling Tropical Cyclones. Part II: Applications to Idealized Landfall Scenarios and Evaluation against Radar Observations",
+    "abstract": "Abstract This two-part study proposes a simple dynamical model, TRACE (Total Relative Angular-Momentum and Energy Constrained Evolution), to describe the intensity decay and structural changes of a tropical cyclone (TC) inner core during landfall. The model’s behavior is investigated both analytically and through comparison with observations. In Part II, we apply the TRACE model to idealized landfall scenarios and compare its intensity predictions with the empirical inland decay model of Kaplan and DeMaria (1995). For initially intense TCs, the TRACE-predicted intensity decay agrees remarkably well with the empirical model over a 42-h post-landfall period, whereas for weaker TCs, TRACE predicts a faster decay during the later stages. Consistent with Part I, the simulations confirm that lower free-tropospheric winds decay more rapidly for storms that are initially stronger, more compact, and moving over rougher surfaces. Additionally, in cases with rough land, outer-core friction causes a rapid loss of relative angular momentum, inducing pre-landfall core contraction and spin-up as analytically predicted. Finally, the TRACE framework is applied to simulate the structural evolution of Typhoon Faxai (2019) during landfall. The model predictions show good agreement with the lower free-tropospheric axisymmetric tangential winds derived from dual-Doppler radar analysis. Notably, during the period of pronounced observed expansion of the radius of maximum wind (RMW), the phase-space analysis indicates that the inner-core total swirling kinetic energy decays fractionally about twice as fast as, or faster than, the total relative angular momentum. This behavior is consistent with the analytical condition for RMW expansion derived in Part I for self-similar profiles.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204192257",
+    "message_id": "1542834210262224967",
+    "theme": "seam",
+    "score": 10,
+    "title": "Enhanced Occurrence of Springtime Extreme Precipitation Associated With Mesoscale Convective Systems Over the US by Baroclinic Annular Mode",
+    "abstract": "Abstract Mesoscale convective systems (MCSs) are powerful contributors to extreme precipitation, often resulting in flash floods. However, the extent to which these systems are influenced by natural modes of climate variability is still not fully understood. In this study, we found that the occurrence of extreme precipitation from MCSs nearly doubles during the intense positive phase of the Baroclinic Annular Mode (BAM). The positive phase of BAM slows down the zonal translation speed of extratropical cyclone (ETC) trajectories, creating a favorable dynamical environment for extreme MCS precipitation. Furthermore, we discovered that when ETCs and MCSs coincide, they account for more than 90% of extreme precipitation during springtime in the U.S. These multiscale interactions between the planetary‐scale BAM, synoptic‐scale extratropical cyclones, and MCSs manifest as significant regional impacts on extreme precipitation.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204215095",
+    "message_id": "1542834215354236988",
+    "theme": "seam",
+    "score": 10,
+    "title": "South America Drought as a Precursor to Tropical Pacific Sea Surface Temperature Cooling",
+    "abstract": "Abstract South America has experienced notable drought conditions over recent decades. Concurrently, the adjacent tropical eastern Pacific has exhibited cooling anomalies in sea surface temperature (SST). Here, through observational analyses and climate model simulations, we reveal that terrestrial drought in central South America (CSA) acts as an emerging precursor to SST cooling in the tropical central-eastern Pacific (TCEP). Our statistical analysis identifies a robust lagged relationship whereby anomalous winter (December–February) TCEP SST cooling systematically follows reduced spring (March–May) CSA soil moisture. Employing diagnostic analyses of atmospheric and oceanic processes together with a hierarchy of climate models—including soil moisture sensitivity experiments, linear baroclinic model simulations, and fully coupled Earth system model experiments—we demonstrate a coherent mechanistic pathway in which reduced soil moisture in CSA triggers a subtropical-to-equatorial meridional precipitation dipole that disrupts Pacific zonal circulation, strengthen easterly trade winds, activates ocean–atmosphere feedbacks, and ultimately lead to cooling of TCEP SST in the subsequent winter. Our findings demonstrate a novel ocean-land-atmosphere coupling pathway modulating tropical Pacific variability, with significant implications for enhancing understanding of ocean-land-atmosphere interactions.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7131392360",
+    "message_id": "1542834220345327620",
+    "theme": "seam",
+    "score": 10,
+    "title": "Seismic Radial Anisotropy of the Southern Tibetan Rifts From Ambient Noise Adjoint Tomography: Basal Shear and Localized Crustal Weak Zones Promote Rifting",
+    "abstract": "Abstract North–south‐trending rifts in southern Tibet record E–W extension within the Tibetan Plateau, closely linked to high gravitational potential energy from collisional thickening and northward underthrusting of the Indian lower crust. To reveal how basal shear is transmitted upward and controls rifting, we use ambient noise adjoint tomography with broadband temporary‐array data to construct crustal shear‐wave velocity and seismic radial anisotropy (RA) models beneath three rifts. Positive RA is pervasive in the mid‐to lower crust of the Lhasa Terrane (∼30–55 km), indicating ductile shear deformation related to Indian lower‐crustal underthrusting. In contrast, low velocities (equivalent to ∼3.7%–5.2% partial melt) and strong positive RA in the mid‐to upper crust (∼10–30 km) are mainly confined beneath rift axes. These results suggest that, during upward transmission, deep basal shear preferentially focuses into localized weak zones in the mid‐to upper crust, thereby promoting rifting above.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7135214887",
+    "message_id": "1542834225747861566",
+    "theme": "seam",
+    "score": 10,
+    "title": "The influence of El Niño-Southern Oscillation on cool-season precipitation variability in the arid Middle East",
+    "abstract": "Abstract. Interannual variability in precipitation across the Middle East is of high societal and environmental relevance given the region's arid climate and limited water resources. While previous studies have linked the El Niño-Southern Oscillation (ENSO) to interannual precipitation variability in the Middle East, the understanding of this linkage and the underlying mechanisms remain fragmented. Using observation-based datasets and a range of diagnostics, this study quantifies the influence of ENSO on Middle Eastern precipitation variability during the extended cool season (October–May) and presents an integrated perspective on the driving atmospheric mechanisms. Consistent with previous studies, we find that El Niño is associated with increased precipitation, whereas La Niña is associated with decreased precipitation. This relationship is asymmetric and varies substantially within the cool season, with a strong precipitation increase during autumn and a modest increase in spring under El Niño conditions, and a persistent precipitation decrease throughout the cool season under La Niña conditions. These precipitation increases (decreases) during El Niño (La Niña) are associated with an equatorward (poleward) displacement of the subtropical jet and increased (decreased) Rossby wave breaking frequencies at the poleward flank and beneath the jet core. Simultaneously, a mid-tropospheric cyclonic (anticyclonic) circulation anomaly over the Middle East strengthens (weakens) atmospheric moisture transport into the region, contributing to enhanced (reduced) tropospheric moisture content and instability. From a global perspective, three different atmospheric mechanisms contribute to these regional circulation patterns: (1) a zonally symmetric shift in the meridional position of the subtropical jet along with anomalies in Rossby wave breaking frequency, (2) a barotropic Rossby wave response emanating from the tropical Pacific toward the Middle East via the extratropics, and (3) a baroclinic perturbation in the tropical circulation extending westwards over the Indian Ocean and South Asia consistent with a Gill-Matsuno-type response. Co-varying circulation patterns over the Indian Ocean, associated with the Indian Ocean Dipole, likely contribute to intraseasonal variability in ENSO's influence on Middle Eastern precipitation. Our findings advance process understanding of precipitation variability in the water-scarce Middle East, having implications for seasonal prediction, flood and drought warning, and the evaluation of climate projections.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204087341",
+    "message_id": "1542834231238066198",
+    "theme": "tropical",
+    "score": 10,
+    "title": "AMOC Weakening Controls δ 18 O but Not Rainfall in North China During Deglacial Abrupt Events",
+    "abstract": "Abstract East Asian Summer Monsoon (EASM) varied at orbital and millennial timescales during the Last Deglaciation (∼20–11 ka). The uniform δ 18 O response in East China is often linked to EASM circulation that drives a precipitation dipole in North and South China on orbital scale. Yet the relationship between stalagmite oxygen isotopes (δ 18 O c ) and regional rainfall remains ambiguous at millennial timescales. Combining proxy records with isotope‐enabled transient climate simulations (iTraCE), we demonstrate a decoupling between changes in δ 18 O c and regional precipitation in North China during millennial‐scale events. Although δ 18 O c responds uniformly across East China to AMOC changes and is correlated with South China rainfall, North China rainfall is instead largely driven by insolation, with negligible millennial‐scale variability. This reflects that East China δ 18 O c is driven by AMOC‐induced shifts in moisture source δ 18 O. Our findings emphasize that δ 18 O c records require forcing‐specific interpretation in East Asia across timescales.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204103490",
+    "message_id": "1542834236946522185",
+    "theme": "seam",
+    "score": 10,
+    "title": "East Pacific Easterly Waves in the CESM2 Large Ensemble: Present-Day Characteristics and Projected Future Changes",
+    "abstract": "Abstract This study investigates the characteristics of east Pacific (EPAC) easterly waves (EWs) in 10 ensemble members of the Community Earth System Model version 2 Large Ensemble (CESM2-LENS) under the current climate and their projected changes by the end of the 21st century under the Shared Socioeconomic Pathway 3–7.0 (SSP370) warming scenario. Under the current climate, the CESM2 ensemble mean produces realistic mean precipitation, horizontal winds, and EW-filtered vorticity variability over the EPAC, although the EW-filtered precipitation amplitude is underestimated relative to observations. CESM2 generally reproduces the distribution of EW tracks identified using 700-hPa curvature vorticity in the Caribbean and EPAC, along with the horizontal structure, amplitude, and propagation of EW disturbances. However, CESM2 EWs exhibit a more top-heavy vertical profile and a more pronounced eastward-tilted vertical velocity structure relative to ERA5, suggesting biases in convective vertical structure and diabatic heating processes. Under the future warming scenario, mean precipitation over the EPAC strengthens and shifts southward, while the increase in EW-filtered precipitation variability is modest. EW track density and anomalous vorticity amplitude decrease along the Central American coast but increase within the southwestern ITCZ region. Increased static stability with warming and weaker upper-level vertical velocity per unit precipitation largely explain the weakened midlevel vorticity in EWs. The weakened dynamical signal of the EWs may limit convective activity, thus resulting in only modest changes in EW precipitation amplitude, which should be treated with caution given the CESM2 biases in simulating diabatic heating processes that controls the evolution of EW moisture.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204124979",
+    "message_id": "1542834242419957851",
+    "theme": "seam",
+    "score": 10,
+    "title": "Methane Emissions From U.S. Lakes Dominated by Ebullition, Shallow Zones, and Anthropogenic Drivers",
+    "abstract": "Abstract Lakes are globally important sources of atmospheric methane (CH 4 ), yet a process‐based understanding of their emissions and drivers at regional scales remains limited. Here we developed and applied a one‐dimensional lake model to 42,948 natural lakes across the contiguous United States (CONUS). Simulations indicate that ebullition is the dominant emission pathway, contributing ∼70% of total fluxes, particularly in shallow, eutrophic systems. Shallow benthic zones act as emission hotspots, accounting for ∼85% of lake CH 4 emissions. CONUS lakes oxidize ∼65% of produced CH 4 on average, with oxidation efficiencies ranging from 46% in shallow lakes to 92% in deeper systems. Scenario analyses demonstrate that warming and nutrient enrichment jointly drive strong, nonlinear increases in lake CH 4 emissions by preferentially enhancing ebullition. Our results indicate that nutrient management offers a practical and effective pathway to mitigate future lake CH 4 release and weaken anthropogenic climate feedbacks.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204149580",
+    "message_id": "1542834247604371537",
+    "theme": "seam",
+    "score": 10,
+    "title": "From Macro to Micro: How Large-Scale Atmospheric Circulation Governs Raindrop Size Variations During Warm-Rain Processes?",
+    "abstract": "Abstract Raindrop size distribution (RSD), a fundamental property of precipitation microphysics, exhibits pronounced spatial variability; however, the mechanisms driving this variability remain unclear. This study collected 11 years (2014–2024) of NASA’s Global Precipitation Measurement (GPM) mission data during the summer months (June–August), focusing on the variability of retrieved D m (mass-weighted average diameter) over four representative regions: Eastern Land (EL), Western Land (WL), Eastern Ocean (EO), and Western Ocean (WO). The results reveal distinct land-sea and regional variations in D m , with median larger values over the western regions (WL: 1.29 mm ; WO: 1.17 mm ) compared to the eastern regions (EL:1.18 mm ; EO: 1.13 mm ). In the examined warm-rain processes, break-up is the dominant process, with its contribution varying regionally between approximately 48% (over WO) and 57% (over EO). The differences in break-up process are closely related to disparities in vertical airflow and turbulence, which are ultimately governed by the large-scale atmospheric circulation. Influenced by the sinking branch of the Walker circulation and the Subtropical High, WO suppresses vertical airflow and turbulence, while the ascending branch over EO enhances both. Although WL is situated in a subsident regime, it experiences locally intensified vertical wind shear and turbulence due to orographic forcing. This study elucidates macro–microphysical coupling in precipitation and offers observational constraints to assess and refine climate model. These constraints support the development of RSD parameters varying with region and circulation regime, facilitating improved representation of circulation-linked RSD variability.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W4409106813",
+    "message_id": "1542834253237329921",
+    "theme": "seam",
+    "score": 10,
+    "title": "The Impacts of Zonal and Meridional Winds on the Observed Occurrence Rate of Equatorial Plasma Bubbles",
+    "abstract": "Abstract Post‐sunset equatorial plasma bubble (EPB) formation is believe to be influenced by factors including thermospheric neutral winds. This study characterizes pre‐sunset neutral winds observed by ICON on EPB occurrences observed by GOLD over the east Atlantic. 3 years of data during the months of November through February are utilized when most EPBs are seen in this region enabling statistical analysis of the data. This is accomplished by generating two populations to compare: winds that precede EPB occurrence and those which do not. Both populations' wind speed magnitudes, wind speed gradients with local time, and wind speed gradients with altitude can then be compared. Zonal and meridional winds weakly correlate to EPB occurrence and are therefore not strong predictors of EPB occurrence. Strongest correlation occurs 1 hr before sunset for meridional winds. Sample sizes are insufficient to determine if pairs of gradient samples were statistically distinct.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203985542",
+    "message_id": "1542834258391867416",
+    "theme": "seam",
+    "score": 10,
+    "title": "HF Heating Effects as Seen From Below and Above: First Results of Joint SURA–Ionosfera‐M Experiment",
+    "abstract": "Abstract This paper presents the first results of a coordinated experiment on the ionospheric plasma response to high‐frequency (HF) overdense heating, conducted using the SURA heating facility and the Ionosfera‐M satellite. The experiment combined ground‐based observations with in situ satellite measurements, enabling a comprehensive study of artificial ionospheric disturbances. During the experiment, the SURA facility transmitted HF waves into the ionosphere toward the magnetic zenith, while Ionosfera‐M and ground‐based instruments measured various ionospheric plasma characteristics in the modified region. The penetration of the pump wave energy up to the satellite height was observed as well as some broadening of VLF noise spectrum and signatures similar to the main ionospheric trough in the HF‐disturbed region. The data analysis revealed a coincidence of the regions of artificial airglow generation and electron density depletion near the magnetic zenith. The results demonstrate an efficiency of combining ground‐based and satellite studies of the HF‐pump induced phenomena.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203997864",
+    "message_id": "1542834263617970189",
+    "theme": "seam",
+    "score": 10,
+    "title": "Post‐Sunset Merging of Equatorial Ionization Anomaly Crests Into a Single Peak Over ∼35° Longitude During the 19 January 2026 Geomagnetic Superstorm",
+    "abstract": "Abstract We investigate the nighttime equatorial ionosphere during the 19 January 2026 geomagnetic storm using Global‐scale Observations of the Limb and Disk OI 135.6 nm observations and ground‐based GPS Total Electron Content. The observations reveal a pronounced longitudinal asymmetry in the post‐sunset equatorial ionization anomaly (EIA). Over the South American sector, the two EIA crests converged and merged into a single equatorial peak across ∼35° longitude within ∼2 hr, while remaining separated with active equatorial plasma bubbles (EPBs) over the Atlantic and West African sectors. This behavior suggests a rapid, large‐scale post‐sunset crest merging under storm‐time conditions. Concurrent radar and magnetometer measurements indicate storm‐time westward electric fields drove the large‐scale merging. The timing of these electric fields relative to local sunset suppressed prereversal enhancement and inhibited EPB growth west of ∼45°W. These electrodynamic changes are consistent with a brief southward followed by prolonged northward interplanetary magnetic field Bz, suggesting overshielding‐driven downward drifts.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203874452",
+    "message_id": "1542834269112635545",
+    "theme": "seam",
+    "score": 10,
+    "title": "Salinity-Driven Barrier Layer Dynamics in the Equatorial Pacific",
+    "abstract": "Abstract Barrier layers in the upper ocean suppress the upward entrainment of cold thermocline water, trapping heat and momentum near the surface and thereby influencing tropical air-sea interaction. However, the mechanisms governing their spatial and temporal variability are not fully understood. This study highlights the importance of salinity-induced vertical stratification in shaping the climatology and variability of the barrier layer in the Pacific Ocean on subannual and interannual timescales. Compared to observational and reanalysis data, coupled ocean-atmosphere models simulate a less eastward-extending warm pool, along with a thin barrier layer bias. This bias is linked to a saltier upper western Pacific and can be attributed to weaker precipitation and stronger easterly winds along the equator. Consistently, models with a more eastward-extending warm pool tend to exhibit a thicker barrier layer and lower salinity over the western Pacific. On interannual timescales, models agree with observational and reanalysis data that anomalous westerly winds and increased precipitation develop 10–13 months before the peak eastward shift of the warm pool eastern edge (WPEE), accompanied by an upper-ocean freshening. These anomalies peak with the WPEE shift and persist for another 9–10 months. Subannual variations exhibit more complex temporal patterns. Anomalous westerly winds and increased precipitation emerge 3–4 months prior to the WPEE peak extension and reverse rapidly one month after the peak. While models capture the timing and magnitude of wind and precipitation changes, they fail to reproduce subannual salinity variations. Improving salinity climatology and subannual variability in models remains essential for simulating barrier layers.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203825747",
+    "message_id": "1542834274103853078",
+    "theme": "seam",
+    "score": 10,
+    "title": "Near-surface Extreme Wind Events and Their Responses to Climate Forcings in a Hierarchy of Global Climate Models",
+    "abstract": "Abstract Near-surface extreme winds profoundly affect human society, yet process-based understanding of their changes under climate forcings remains limited. This study systematically investigates the responses of high (HWE) and low (LWE) wind extremes (10-meter) to climate forcings using a hierarchy of climate model experiments from multiple general circulation models that participated in the Cloud Feedback Model Intercomparison Project. We analyze idealized atmosphere-only aquaplanet (Aqua) simulations and more realistic land-atmosphere (AMIP) simulations to identify robust responses to climate forcings and trace the sources of structural uncertainty. In Aqua simulations, tropical LWE changes exhibit large inter-model spread, which can be partly traced to model-dependent responses of low-pressure systems. In contrast, extratropical HWE intensify robustly with surface warming, linked to the strengthening of high-latitude extratropical cyclones. The AMIP simulations confirm the robust intensification of extratropical HWE. The more realistic boundary conditions in AMIP simulations act as a constraint, reducing inter-model spread in tropical zonal means compared to Aqua simulations. A comparison of uniform and patterned 4-K warming experiments suggests that the global magnitude of warming, rather than the specific warming pattern, dominates the large-scale responses of wind extremes. However, regional projections of extreme wind changes, especially over land, remain highly uncertain due to divergences in model formulations. Case studies reveal that major disagreements in HWE changes can stem from fundamental differences in representing the type and seasonality of extreme-producing weather systems. Our results underscore that reducing uncertainty in regional wind projections requires constraining the physical representation of weather systems in climate models.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203831044",
+    "message_id": "1542834279132692593",
+    "theme": "seam",
+    "score": 10,
+    "title": "Cascadia Slow Earthquake Behaviors Modulated by Tectonic and Environmental Forcings",
+    "abstract": "Abstract Slow earthquakes, including episodic tremor and slip (ETS), are highly sensitive to small stress perturbations, yet their links to tectonic and non‐tectonic forcings remain unclear. Previous studies suggest that annual hydrological cycle dominates the tremor seasonal behavior in northern Cascadia. But over a longer time range, the tremor seasonal pattern seems significantly changed. Here, we systematically examine major stress perturbations toward influencing tremor and slow slip event (SSE) activities in Cascadia and identify two distinct patterns: an incongruent tremor seasonal variation that cannot be explained by hydrological forcing and a long‐term change in the locations where ETS events nucleate and their propagation directions. The tremor seasonality is better explained by stress variation due to SSEs, while the long‐term ETS evolution likely reflects spatiotemporal stress redistribution on subduction fault interface through stress feedback of past major ETS events and potential stress balancing along fault strike.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203833050",
+    "message_id": "1542834284635623536",
+    "theme": "seam",
+    "score": 10,
+    "title": "Historical and Projected Antarctic Sea Ice Trends Across High‐Resolution Coupled Model Hierarchies",
+    "abstract": "Abstract Coupled climate models generally simulate a decline in Antarctic sea ice extent (SIE) over the satellite period, failing to capture the observed near‐zero trend. Recent work has suggested that high‐resolution ocean models could ameliorate this issue via improved representation of mesoscale ocean processes, which may delay simulated Antarctic SIE decline. We investigate this hypothesis using two high‐resolution hierarchies of coupled climate models developed at GFDL and NCAR, which span atmospheric resolutions of 0.25–1 and ice‐ocean resolutions of 0.1–1, as well as three generations of Coupled Model Intercomparison Project (CMIP) models. Across the high‐resolution hierarchies and CMIP ensembles, we find no clear relationship between ocean and atmospheric resolution and Antarctic SIE trends over both the satellite period and the remainder of the 21st century. Climate models that reproduce observed trends in individual ensemble members are those that exhibit large amplitude multi‐decadal Southern Ocean climate variability.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7129177368",
+    "message_id": "1542834289811398727",
+    "theme": "seam",
+    "score": 10,
+    "title": "Synoptic drivers of the August 2024 record-breaking rainfall in the Chadian Sahara: dynamics, thermodynamics, and socio-economic consequences",
+    "abstract": "Abstract. This study examines the atmospheric mechanisms behind the extreme rainfall event of August 2024 in the northern Chad, and their devastating socio-economic impacts. Analysis of the hydro-climatic regime over the region reveals a major structural transition marked by a statistical tipping point in 2003, shifting from historical aridity to a phase of intensified rainfall that culminated in the record high of August 2024. Our analysis of lower-tropospheric convergence, specific humidity, vertical velocity (ω), and moist static energy (MSE) reveals a major shift from the typical West African monsoon regime. In August 2024, the Intertropical Front (ITF) shifted abnormally northward, reaching 20–22° N, which allows moist moisture air to penetrate deep into the Saharan zone. This shift was driven by strengthened convergence at 850 hPa and a significant increase in low-level humidity. Furthermore, negative ω anomalies throughout the troposphere indicate a northward extension of the monsoon's upward branch. Strong positive MSE anomalies over desert regions further highlight a thermodynamic enrichment of the atmospheric column. Together, these signals point to a highly effective dynamic-thermodynamic coupling that fueled intense convective systems. Ultimately, the synchronization between these atmospheric condition and the synoptic forcing of African easterly waves generated local rainfall anomalies exceeding 100 %, redefining the hydrological balance of the Lake Chad basin between aquifer recharge and increased risks of flash flooding. This hydro-climatic shift had immediate and devastating socio-economic impacts: the resulting flooding affected nearly 20,000 people across four desert provinces in Chad. In Tibesti alone, sixty lives were lost due to drowning or building collapses, alongside significant losses of livestock and infrastructure.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7147366202",
+    "message_id": "1542834295411048525",
+    "theme": "seam",
+    "score": 10,
+    "title": "Multiscale assessment of Indian monsoon rainfall using ICON and CMIP6 model simulations",
+    "abstract": "Abstract. Indian Summer Monsoon (ISM) rainfall is organized across multiple timescales, from diurnal convection to synoptic disturbances, intraseasonal oscillations, and the seasonal mean. Climate models often show different levels of skill at each of these timescales, raising an important question: how do scale-dependent biases shape overall monsoon variability? Here, we assess a medium-resolution (40 km), non-hydrostatic global model (ICON) together with five hydrostatic CMIP6-class models (CNRM, MPI, GFDL, MIROC6, and IITM-ESM; 50–190 km resolution). All simulations are evaluated in AMIP configuration against high-resolution IMERG observations during 1998–2014, allowing isolation of atmospheric sources of rainfall bias. Rainfall errors are strongly scale-dependent and exhibit clear land–ocean contrasts. At the diurnal scale, ICON reproduces amplitudes over the continent with a relatively small bias (∼ 5 %–10 %), whereas MPI overestimates land diurnal amplitude by more than 150 % with premature triggering. The CNRM and GFDL show early daytime convection and weak nocturnal rainfall, while MIROC6 and IITM-ESM exhibit reduced diurnal amplitude linked to convective and resolution limitations. Over the Bay of Bengal, ICON overestimates diurnal amplitude (∼ 60 %) and variance (∼ 180 %), whereas CMIP6 models underestimate nocturnal oceanic variability (amplitude < 40 %, variance < 60 %). At synoptic timescales (2–7 d), models differ in their ability to sustain organized monsoon disturbances. ICON and GFDL maintain realistic spatial structure with moderate suppression, while MPI underestimates synoptic variance by up to ∼ 70 %–80 %. Other models either has weakened synoptic activity or redistribute variability toward intermediate (10–20 d) bands. Across the ensemble, the 20–100 d intraseasonal band is systematically underestimated (by ∼ 30 %–60 %) in the AMIP framework, suggesting that coupled ocean–atmosphere feedbacks, among other factors, contribute to maintaining monsoon intraseasonal oscillations. Seasonal rainfall patterns reflect the combined effect of these multiscale biases. Models that maintain a balanced variance distribution across diurnal, synoptic, and intraseasonal bands show improved seasonal structure, whereas distortions at intermediate frequencies contribute to amplitude and migration errors. These results indicate that credible monsoon simulation depends not only on seasonal-mean accuracy but also on physically consistent variability across timescales. A scale-aware diagnostic framework is therefore essential for improving convective triggering, mesoscale organization, boundary-layer processes, and air–sea coupling in climate models.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7165516558",
+    "message_id": "1542834301945647297",
+    "theme": "seam",
+    "score": 10,
+    "title": "Dynamics Governing a T-initiation Mesoscale Convective System",
+    "abstract": "Abstract Bow echoes, identifiable by their bow-like shape on radar, are often associated with specific convective processes. The T-initiation Mesoscale Convective System (MCS) exemplifies this phenomenon, appearing as a quasi-linear bow echo with downstream nascent leading convection (LC), forming a 'T' shape on radar. The LC presents challenges for operational forecasts and can lead to severe weather conditions when they merge with parent bow echoes. Focusing on a T-initiation MCS over the Bohai Sea in China, this study investigates the physical mechanisms governing LC initiation. Utilizing the WRF-ARW model, backward trajectory tracking within a Lagrangian framework and vertical momentum budget analysis are employed to explore the dynamic factors driving the uplift of air parcels within the LC cells. Results reveal that a mid-level mesoscale anticyclonic vortex associated with the bow echo’s upper-level outflow modulated the wind field, resulting in stronger vertical wind shear between 2.5–5 km AGL downstream of the bow-echo. Interactions between this enhanced shear and pre-existing vertical motion led to low perturbation pressures at midlevels, which resulted in a nonhydrostatic vertical perturbation pressure gradient force that aided parcel ascent, contributing to the initiation of new LC cells. Thus, this study helps elucidate the self-organizing and sustaining processes of bow echoes by potentially identifying a novel initiation mechanism for LC cells in a T-initiation MCS.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203768731",
+    "message_id": "1542834307641516145",
+    "theme": "seam",
+    "score": 10,
+    "title": "High‐ and Low‐Concentration Spiral Chlorophyll Bands Excited by Vortex Rossby Waves",
+    "abstract": "Abstract High‐concentration spiral chlorophyll bands (HSCBs) embedded in oceanic mesoscale eddies have recently been observed worldwide. They are considered to be the footprints of vortex Rossby waves (VRWs). Based on satellite observations and drifter data, we identified additional low‐concentration spiral chlorophyll bands (LSCBs). The morphological and kinematic features of the LSCBs are similar to those of the HSCBs and align with the VRW theory. Both the HSCBs and LSCBs are predominantly found in areas of weak background flow and are more easily excited during the eddy's mature stage. Further analysis showed that the formation of HSCBs (LSCBs) is probably associated with upward (downward) motions accompanied by horizontal divergence (convergence). Finally, it was found that strong background flows will significantly suppress VRWs ( r ≤ −0.52, where r is the Pearson correlation coefficient), as manifested by the distortion and breakdown of their structure. This study improves our understanding of VRW dynamics in mesoscale eddies.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203791413",
+    "message_id": "1542834313391902800",
+    "theme": "seam",
+    "score": 10,
+    "title": "Tropical Eastern Pacific Decadal Variability Drives Atlantic Multidecadal Variability: Two Distinct Pathways",
+    "abstract": "Abstract Using a tropical Pacific pacemaker experiment, we demonstrate that the tropical eastern Pacific (TEP) decadal sea surface temperature (SST) variability influences the Atlantic Multidecadal Variability (AMV) through two pathways. The TEP induces a North Atlantic SST tripole response that peaks 1 year later, primarily via modulation of net surface heat flux. The subpolar SST anomalies associated with this tripole response subsequently influence the strength of North Atlantic deep water formation and the Atlantic Meridional Overturning Circulation, ultimately leading to a monopole SST response in the North Atlantic about one decade later. The tripole and monopole responses account for 40% and 59% of the TEP‐forced AMV signal, respectively. The TEP‐forced AMV explains approximately 30% of the variance in the internal AMV, thus substantially modulating the phase transitions and intensity of the historical AMV. This identified TEP forcing should be carefully considered to improve simulations and predictions of the AMV.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203683576",
+    "message_id": "1542834318769131561",
+    "theme": "seam",
+    "score": 10,
+    "title": "Antarctic Sea‐Ice Extent Anomalies Impact Interannual Variability of Phytoplankton Chlorophyll‐a in Southern Ocean Frontal Zones",
+    "abstract": "Abstract The influence of sea‐ice variability on Southern Ocean phytoplankton productivity across frontal zones remains poorly quantified. Using 26 years (1998–2023) of satellite data, we quantified how sea‐ice extent anomalies (SIEA) impact surface phytoplankton Chlorophyll‐a (Chl‐a) anomalies across three frontal zones. The annual minimum (February) and annual maximum (September) sea‐ice extent declined over 1998–2023 (Sen's slope = −19,088 and −28,858 km 2 yr −1 ; Mann–Kendall p = 0.0198 and 0.0230, respectively), with a faster relative decline at the annual minimum (−0.87% yr −1 ) than at the annual maximum (−0.18% yr −1 ). Lagged correlations show positive SIEA precede enhanced Chl‐a (36%–40%, p < 0.01) in coastal and Southern Boundary zones. Post‐2015, SIEA declined by 8.1% (from 11.88 to 10.91 million km 2 , with −17.4% anomaly in 2023), and Chl‐a declined by 2.6%–6.7% across zones, indicating a low‐ice, low‐productivity regime. Unlike basin‐wide studies, we resolve frontal‐scale lagged effects linking SIEA and Chl‐a variability across frontal zones.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7135222527",
+    "message_id": "1542834324272062506",
+    "theme": "seam",
+    "score": 9,
+    "title": "The Response of Tropical Land-Ocean Precipitation Partitioning to SST and CO2 Increase in Global Storm-Resolving Simulations",
+    "abstract": "Abstract The tropical land-ocean precipitation partitioning is skewed toward the land. This study assesses how CO 2 increase and uniform sea surface temperature increase affect this partitioning. We analyze 14-year global simulations conducted with the ICON model at 10-km horizontal grid spacing, at which convection is simulated explicitly. ICON’s precipitation partitioning shows better agreement with observations than the AMIP6 ensemble. Under 4×CO 2 , precipitation partitioning increases, favoring land precipitation, whereas it decreases upon +4K SSTs. We develop a diagnostic framework based on the land’s atmospheric energy and moisture budgets to decompose the response of tropical precipitation partitioning into contributions from land atmospheric heating, land circulation efficiency, land moisture cycling, and tropical radiative cooling. In ICON and the AMIP6 ensemble, the land atmospheric heating is identified as the primary controlling factor for changes in precipitation partitioning. Changes in atmospheric heating drive circulation adjustments that modulate land precipitation through changes in land moisture convergence. The response of the controlling factors is similar in ICON and in the AMIP6 ensemble, apart from two qualitative differences. First, the controlling factors are generally more stable toward the imposed forcings in ICON compared to the AMIP6 ensemble. Second, the opposing responses in precipitation partitioning upon CO 2 forcing and equivalent uniform SST increase are of virtually equal magnitude in ICON, whereas in AMIP6 precipitation partitioning responds more strongly to the uniform SST increase. These findings suggest that coarse-resolution models may underestimate the land hydrological sensitivity relative to the total tropical hydrological sensitivity.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204268380",
+    "message_id": "1542834330869571605",
+    "theme": "seam",
+    "score": 9,
+    "title": "A Dynamical Model of the Inner-Core Evolution of Landfalling Tropical Cyclones. Part I: Model Formulation and Fundamental Behaviors",
+    "abstract": "Abstract This two-part study proposes a simple dynamical model, TRACE (Total Relative Angular-momentum and energy Constrained Evolution), to describe the intensity decay and structural changes of a tropical cyclone (TC) inner core during landfall. The model’s behavior is investigated both analytically and through comparison with observations. In Part I, we formulate the TRACE model and address two key questions: (1) What controls the decay rate of maximum wind speed V max ? and (2) What dynamical mechanisms govern structural changes, including the evolution of the radius of maximum wind ( R max ) and the radii of 64-kt and 50-kt winds ( R 64 and R 50 )? The TRACE framework is based on the axisymmetric momentum and continuity equations. It connects the evolution of the storm-scale kinetic energy of the swirling wind ( K swirl ) and the total relative angular momentum ( M rel ) to changes in TC intensity and inner-core structure. An analytical solution for a simplified case confirms that TCs decay faster when they are initially more intense, possess a more compact inner core, or move over a rougher land surface. Furthermore, the inner-core evolution is classified into three regimes: (i) core expansion and spin-down, (ii) core contraction and spin-down, and (iii) core contraction and spin-up, depending on the ratio of the fractional decay rates of K swirl and M rel . In most overland cases, storms satisfy the condition for the first regime, leading to R max expansion. Conversely, core contraction can occur when frictional drag acts selectively outside the inner core, such as during pre-landfall stages.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204172438",
+    "message_id": "1542834336527818753",
+    "theme": "seam",
+    "score": 9,
+    "title": "Normalized Regime Persistence: A Simple Metric to Diagnose Land Feedback States",
+    "abstract": "Abstract Land feedbacks regulate energy flux partitioning and hydroclimatic extremes, yet their global characterization remains constrained by global‐scale robust flux estimates. Here, we introduce a new observation‐driven metric that circumvents multi‐variate flux dependencies by characterizing land feedback states using satellite‐derived soil moisture variability as the only dynamically varying input. Results demonstrate that climatic gradients fundamentally shape the seasonal evolution of three land feedback regimes. Weak coupling dominates arid regions throughout the year, whereas decoupling prevails in humid climates during wet seasons. Dynamically interacting states peak in semi‐arid to sub‐humid regions during pre‐ and post‐rainfall seasons when soil moisture intermittently crosses critical threshold. Analysis using energy flux‐based coupling diagnostics further shows that dynamically coupled states exhibit systematically stronger and more coherent water‐energy coupling, particularly across transitional climates. These findings confirm that the dynamic state is not merely a classification artifact but represents a physically distinct regime with robust and measurable coupling strength.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204201731",
+    "message_id": "1542834342131142657",
+    "theme": "seam",
+    "score": 9,
+    "title": "Internal Structure and Formation Process of a Giant East Antarctic Grounding‐Zone Wedge",
+    "abstract": "Abstract The marine‐based portions of the East Antarctic Ice Sheet are currently losing mass at an accelerating rate due to atmospheric and oceanic forcing. Assessing these changes requires understanding long‐term grounding‐zone dynamics preserved in glacial geomorphology, including understudied East Antarctic shelf sectors. We present geophysical evidence for the detailed internal architecture of a giant ∼260 m‐high grounding‐zone wedge (GZW) in Vincennes Bay just offshore the Aurora Subglacial Basin. A bed slope transition from retrograde to prograde likely slowed grounding‐zone retreat, culminating in a stillstand. Prograding internal foresets indicate a single major stabilization event tied to a ∼65 km grounding‐line readvance, probably after the Last Glacial Maximum. The new high‐resolution seismic data allow analyzing the nucleation and the evolution of a GZW in unprecedented detail, thus providing key constraints on grounding‐zone behavior and its sensitivity to local topography and associated subglacial geological variations along ice‐sheet beds.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204215613",
+    "message_id": "1542834347063644185",
+    "theme": "seam",
+    "score": 9,
+    "title": "Lakes Amplify Carbon Emissions Relative to Downstream Export in Aquatic Networks",
+    "abstract": "Abstract Inland waters emit and export large quantities of carbon (C), and the balance between emission and export determines the role of inland waters in the global C cycle. Modeling studies of stream‐lake networks suggest that C emission‐to‐export ratios (emission:export) are higher in lake‐rich networks with longer network residence times (NRT), yet empirical evidence supporting these patterns remains limited. We sampled 362 stream segments and 42 lakes across 32 nested arctic stream‐lake networks, repeated across four seasons with contrasting environmental conditions. The data show that lake‐rich networks have much longer NRT and higher C emission:export regardless of environmental conditions, while overall C emission:export increased during warmer low‐flow periods. Our findings stress the importance of accounting for lakes within stream networks and simultaneously quantifying multiple C fates when assessing the role of inland waters in the C cycle.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204086551",
+    "message_id": "1542834352638001223",
+    "theme": "seam",
+    "score": 9,
+    "title": "Rossby wave phase tracing and its application to the Pacific-Japan teleconnection pattern",
+    "abstract": "Abstract This study develops an extended theoretical framework of Rossby wave ray and phase tracing that simultaneously predicts wave trajectories and the spatial evolution of crests and troughs. The formulation is derived from two-dimensional spherical Rossby wave theory on a horizontally non-uniform basic flow, allowing both zonal and meridional background winds to influence wave propagation and phase evolution. The framework is applied to diagnose stationary Rossby wave behavior under idealized and realistic atmospheric conditions: Validation in idealized basic states shows that the predicted phase evolution accurately reproduces the structure of forced responses in a barotropic model. The results demonstrate the important role of mean meridional flow: it permits one-way cross-equatorial propagation across the easterlies and substantially enlarges meridional scale of waves, thereby shaping zonally elongated structures in meridionally propagating wave trains. Application to the observed boreal-summer circulation further reveals that the Pacific-Japan (PJ) teleconnection arises from coherent phase evolution of multilevel Rossby wave trains. In the lower troposphere, northward-propagating waves embedded in the monsoonal southwesterlies generate a meridionally elongated ‘− / + / −’ phase consistent with observed tripolar anomaly pattern. In the upper troposphere, southeastward-to-southwestward propagating waves form a complementary ‘+ / − / +’ pattern. These features cannot be captured within the traditional zonal-flow-only framework, underscoring the dynamical importance of mean meridional flow. Overall, our results establish wave phase evolution as a key dynamical constraint on wave propagation and teleconnection structure, offering a new pathway for diagnosing teleconnection patterns and understanding their variabilities and potential future changes.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204039461",
+    "message_id": "1542834357893599304",
+    "theme": "seam",
+    "score": 9,
+    "title": "Seasonal Reversal of Polarity Dominance in High‐Current Cloud‐to‐Ground Return Strokes Over East Asian Midlatitudes",
+    "abstract": "Abstract Extreme positive cloud‐to‐ground lightning over East Asian midlatitudes exhibits a spring–autumn double maximum hidden by the familiar winter climatology. Using 1,838,538 return strokes with absolute peak currents at least 200 kA during 2006–2024, we resolve its annual cycle by month and latitude. At 35–55N, positive strokes account for 86.2% in April and 77.1% in October and remain dominant from September through November; negative strokes dominate in winter and midsummer. The contrast arises primarily within latitude bands and strengthens with current: positive strokes are 28.3 and 23.7 times more likely than negative strokes to exceed 200 kA in April and October. April dominance spans cloud environments, whereas October dominance collapses above 9‐km cloud tops and accompanies freezing levels 0.3–0.4 km lower. This twice‐yearly reversal links the polarity of extreme ground lightning to seasonally changing current distributions and storm vertical structure.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204047219",
+    "message_id": "1542834362742079502",
+    "theme": "seam",
+    "score": 9,
+    "title": "A Subtle Atmospheric Shift Is Redefining Winter Hydrology on the Tibetan Plateau",
+    "abstract": "Abstract Winter climate over the Tibetan Plateau has long been characterized by cold conditions that preserve snow and regulate downstream water supply through delayed melt. Here we show that this buffering function is weakening in the Sanjiangyuan region due to a shift in winter compound climate regimes. Using standardized temperature–precipitation anomaly classification, circulation composites, water‐vapor transport diagnostics, and hydroclimatic observations, we identify a transition from historically dominant cold‐dry and cold‐wet winters toward warm‐dominated regimes since the early 2000s, with warm‐dry events exhibiting the strongest increase. Composite geopotential height anomalies reveal persistent mid‐tropospheric ridging during warm‐dry winters, while integrated water vapor transport indicates moisture diversion rather than enhanced convergence. These circulation‐driven compound extremes are associated with widespread snow depth reductions, soil moisture depletion, and suppressed or redistributed runoff, consistent with a multi‐decadal shift from storage‐dominated to flux‐limited winter hydrology.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204004555",
+    "message_id": "1542834368597463071",
+    "theme": "seam",
+    "score": 9,
+    "title": "Hydrothermal Contributions to Elevated Dissolved Organic Carbon Concentrations and Cycling Along the Mid‐Atlantic Ridge",
+    "abstract": "Abstract Hydrothermal systems along the Mid‐Atlantic Ridge (MAR) are spatially variable sources of dissolved organic carbon (DOC) to the deep ocean, with implications for carbon cycling and trace‐metal transport. We present DOC measurements from four research cruises focusing on major vent fields at Menez Gwen, Rainbow, Lost City, Broken Spur and TAG (25–40°N). Distinct DOC patterns were observed across sites. At Rainbow and Menez Gwen, DOC maxima (>1,000 μM) were decoupled from Fe and 3 He plumes, indicating diffuse DOC sources and potential chemosynthetic production. In contrast, CTD casts intercepting buoyant plumes at TAG and Rainbow showed elevated DOC (90–140 μM) coincident with Fe and 3 He, consistent with direct hydrothermal inputs and possible Fe–ligand complexation. No DOC enrichment was detected at Broken Spur. These results demonstrate that hydrothermal vents have highly variable magnitudes and sources of DOC, leading to spatially heterogeneous impacts on deep‐ocean carbon cycling and metal‐organic interactions.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203937315",
+    "message_id": "1542834373676503132",
+    "theme": "seam",
+    "score": 9,
+    "title": "Influence of Heat Wave and Precipitation on Chikungunya Transmission",
+    "abstract": "Abstract Increasingly frequent extreme weather events are heightening the chances of mosquito‐borne diseases outbreaks, posing a notable threat to human health. However, how extreme weather influences the transmission dynamics of mosquito‐borne diseases remains poorly understood. Here, we integrate heat waves and effective precipitation as parameterization schemes into an SEI‐SEIR dynamic model to quantify their driving effects on chikungunya transmission. Based on the 2025 chikungunya fever outbreak in Foshan, the model successfully reproduced the observed transmission dynamics. Attribution analysis revealed that heat waves exerted a dual effect on transmission. Mosquito suitability declined by 9.7%, yet accelerated viral replication and altered human behavior generated a positive forcing that drove a net 76% increase in infected cases. Effective precipitation regulated outbreak scale nonlinearly, dispersed rainfall increased mosquito abundance by 205% and amplified transmission by 10.5%. Our research offered new insights into the impact of extreme weather on mosquito‐borne infectious diseases.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203939400",
+    "message_id": "1542834379129102357",
+    "theme": "seam",
+    "score": 9,
+    "title": "Processes and Predictability for an Extreme Flash Flood Event on Long Island, New York",
+    "abstract": "Abstract Observations and numerical simulations are used to analyze the environment and processes that caused a record flash flood over central Long Island, New York on 13 August 2014. A ∼20 km wide band of intense rainfall resulted in nearly 330 mm of rain over 3 hours at Islip, New York. The rainfall was enhanced by low-level convergence along a surface trough along with ∼400 J kg −1 of convective available potential energy and a low-level jet that advected moisture into the area. This surface trough amplified as it rotated northward over Long Island due to low-level potential vorticity generated by latent heating within the band. All operational high resolution (< 4-km grid spacing) models and a 31-member ensemble of 3-km Weather Research and Forecasting using different initial conditions and physics underpredicted the precipitation by more than a factor of two. Excessive explicit convection that the model spins-up south of Long Island over the ocean depletes the instability and weakens the jet advecting moisture into the band, resulting in the rain band dissipating too quickly. This is shown by using smaller explicit (3- and 1-km) nests just encompassing Long Island, which resulted in less precipitation south of Long Island and thus more favorable band ingredients and thus a much greater precipitation forecast (∼450 mm in 3 hours). An ensemble of this small domain setup illustrates some of the parameterization sensitivity in the outer 9-km domain, in which the precipitation band failed to develop for some members using a different convective scheme.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203939641",
+    "message_id": "1542834385416364084",
+    "theme": "seam",
+    "score": 9,
+    "title": "Dual-Parameter Control of Vertical Diffusion in Tropical Cyclone Intensification",
+    "abstract": "Abstract Despite the critical roles of boundary layer turbulent processes in tropical cyclone (TC) development, the distinct contributions of the vertical extent and peak magnitude of vertical eddy diffusivity ( K m ) to TC intensification remain insufficiently understood. Using a series of Global-to-Regional Integrated Forecast System simulations of Typhoon Lekima (2019), this study investigates how the vertical extent and magnitude parameters, embedded within the eddy-diffusivity mass-flux planetary boundary layer scheme, modulate turbulent processes and influence TC intensification. The findings suggest that the vertical extent parameter impacts both TC early spin-up efficiency and rapid intensification (RI) physics, whereas the magnitude parameter primarily affects RI. Specifically, during vortex spin-up, a reduced vertical extent enhances the turbulent moisture flux gradient and diminishes vertical diffusion, thereby promoting feedback in the wind-induced surface heat exchange (WISHE). As RI begins, a reduced vertical extent weakens downward mixing of azimuthal momentum, amplifying boundary layer gradient imbalance. In contrast, the weakening of turbulent mixing resulting from the reduction in peak magnitude becomes pronounced before RI onset. This ensuing boundary layer imbalance thus facilitates RI initiation. These findings establish a unified framework, demonstrating how the vertical extent parameter modulates early WISHE-driven spin-up, while both parameters influence gradient wind imbalance during RI, thereby linking turbulent processes to the stage-dependent dominance of TC intensification mechanisms.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203744172",
+    "message_id": "1542834390810365983",
+    "theme": "seam",
+    "score": 9,
+    "title": "Arctic and Tibetan Plateau Tundra Show Divergent Temperature and Precipitation Thresholds Under Climate Change",
+    "abstract": "Abstract The Arctic and Tibetan Plateau (TP) have experienced pronounced warming and shifts in precipitation patterns, yet vegetation responses to climate change remain insufficiently understood. Here, we analyze the temperature and precipitation thresholds of limiting gross primary productivity (GPP) of tundra ecosystems in the Arctic and TP from 1982 to 2100, using a combination of observational data sets and simulations. We found that the temperature thresholds limiting GPP increase in both regions have steadily increased since 1982 and are projected to continue rising. In contrast, precipitation thresholds show significant upward trends in the Arctic but considerable temporal variability in the TP. By 2100, precipitation limitation of GPP is projected to exert a stronger influence in browning zones than in greening zones, whereas temperature limitation is more pronounced in greening zones. Our results reveal the diverse vegetation responses to temperature and precipitation in the Arctic and TP tundra.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203775410",
+    "message_id": "1542834396178939906",
+    "theme": "seam",
+    "score": 9,
+    "title": "Boundary‐Aware Physical Constraints Refine Satellite Precipitation Occurrence Over the Qinghai‐Tibet Plateau",
+    "abstract": "Abstract Over complex terrain, hourly precipitation occurrence estimates are often distorted by weak, persistent, and mistimed wet hours that are poorly constrained by independent time‐step classification. Using 1,232 hourly gauge records over the Qinghai‐Tibet Plateau (QTP), we develop a boundary‐aware physical‐constraint framework that learns rainfall onset and cessation probabilities from short‐window environmental contrasts, extracts interpretable physical rules, and fuses them into transferable boundary evidence for downstream correction of hourly satellite precipitation occurrence. The learned boundary probabilities are discriminative and well calibrated. The extracted rules reveal boundary asymmetry: onset emphasizes cloud‐liquid‐water, midlevel‐humidity and hydrometeor contrasts, whereas cessation shifts to humidity–cloud‐fraction loss and land–wind persistence controls. Applied conservatively, the framework increases station‐median CSI by 15.5% for GSMaP and 17.1% for IMERG, while reducing median FAR by 4.5% and 13.7%, respectively. These results show that boundary‐aware physical constraints can refine the structural realism of hourly satellite precipitation occurrence over complex terrain.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203665204",
+    "message_id": "1542834401895915622",
+    "theme": "seam",
+    "score": 9,
+    "title": "Comparative Analysis of Ion and Electron Contributions to Ionospheric Ionization at Auroral and Subauroral Latitudes",
+    "abstract": "Abstract Electron and proton precipitation into the nightside ionosphere is a key process in magnetosphere–ionosphere coupling. Although auroral electron precipitation at –10 keV is traditionally considered the main driver of auroral emissions, recent studies show that keV electrons and protons can significantly contribute to ionospheric energy deposition, especially during storms. While energetic electron precipitation has been studied extensively, the role of energetic proton precipitation remains poorly quantified. Here, we use coordinated ELFIN and DMSP nightside observations during two substorm events, resolving electron and proton precipitation spectra from eV to ∼MeV. We show that keV proton precipitation, consistent with curvature scattering, can have an impact on E‐region ionization comparable to that of energetic electrons. These analyses are further supported by magnetospheric observations from the Arase and THEMIS spacecraft and ground‐based incoherent scatter radar measurements from PFISR.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203676093",
+    "message_id": "1542834407063298079",
+    "theme": "seam",
+    "score": 9,
+    "title": "Detailed Shallow Shear Velocity Structure in the Nankai Trough From Ambient Noise Differential Adjoint Tomography: Implications for Earthquake Generation Mechanisms",
+    "abstract": "Abstract Seismic and aseismic slip has been reported in the Nankai Trough. In this study we apply ambient noise differential adjoint tomography to obtain a high‐resolution S‐wave velocity (Vs) model in the Nankai Trough. The Vs in the very shallow imbricate thrust zone is higher than that on both the seaward and landward sides. This region may prevent the upward migration of fluids from below, which may lead to an elevated pore fluid pressure beneath the region and facilitate slow earthquake occurrence. There is a large‐scale anomaly with low Vs and high P‐wave velocity (Vp)/Vs in the Kumano basin. This may be caused by the ascent of deep‐sourced fluids from the plate boundary and indicate that an impermeable condition is absent in the seismogenic zone. In subduction zones the permeability property above fluid‐source zones may be important for the strength of the plate interface and thus the types of earthquakes.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203723004",
+    "message_id": "1542834412016631853",
+    "theme": "seam",
+    "score": 9,
+    "title": "Numerical Evidence of Invariance of Turbulence Dissipation Rate in Breaking Waves",
+    "abstract": "Abstract We perform direct numerical simulations to verify the hypothesis of invariance of the turbulence dissipation rate, proposed by Deane, Stokes, and Callaghan (2016, https://doi.org/10.1175/jpo‐d‐14‐0187.1 ) based on their laboratory breaking wave experiments. Our DNS data provide direct access to local viscous dissipation rates, which are difficult to measure in laboratory and field experiments. The breaking waves simulated have a wavelength of 25 cm and varying amplitudes. Despite a fivefold variation in the total energy dissipation, our results indicate the emergence of a space–time‐averaged dissipation rate between 0.49 and 0.70 W/kg. The additional energy loss accompanying an increase in wave amplitude is accommodated by an increase in the bubble plume volume, where energy dissipation is concentrated, rather than by an increase in energy dissipation rate via shear stress correlations. These findings clarify how breaking wave energetics constrain turbulence injection into the upper ocean and regulate air–sea exchange processes.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204238554",
+    "message_id": "1542834417385603083",
+    "theme": "seam",
+    "score": 8,
+    "title": "Proof of Concept for a Low-Order Fokker–Planck Formulation Using the Lorenz System",
+    "abstract": "Abstract We propose a formulation for estimating the drift vector and the diffusion tensor in a reduced Fokker–Planck equation from the governing equations, under the assumption that the high modes follow mutually independent normal distributions, whose mean and variance conditioned on a specific low-mode state are inferred from finite time-series data. We performed a long numerical integration of the three-dimensional Lorenz system and then applied principal component (PC) decomposition to separate the two gravest PC modes from the remaining modes. The conditional mean and variance of the high mode, PC3, were locally estimated using a self-organising map constructed in the low-mode phase space. The resulting drift and diffusion fields showed reasonable agreement with empirical estimates computed directly from the data, capturing the rotational dynamics around unstable equilibria of the Lorenz model and the enhanced diffusion in the inter-lobe transition region. These results suggested that the proposed framework served as a proof of concept for reconstructing local drift and diffusion coefficients of reduced Fokker–Planck models for nonlinear dynamical systems under a closure assumption.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7131620642",
+    "message_id": "1542834422531760159",
+    "theme": "seam",
+    "score": 8,
+    "title": "A Generalized Richardson Number Diagnostic for Turbulence in the Free Atmosphere",
+    "abstract": "Abstract A new Richardson number formulation, Ri new , is introduced to improve the diagnosis of turbulence in the stratified free atmosphere. The formulation is derived from the turbulent kinetic energy budget and accounts for both vertical wind shear and horizontal shear (deformation and divergence), weighted by the ratio of horizontal to vertical eddy viscosities ( K mh /K mv ). This extends the classical Richardson number Ri old , which accounts only for vertical shear. The diagnostics Ri new , Ri old , and the widely used Turbulence Index 1 (TI1), computed from ERA5 reanalysis, are evaluated using more than 247 million automated turbulence reports from commercial aircraft (2017–2024). Across various turbulence intensity thresholds, Ri new consistently outperforms the other diagnostics, resulting in higher AUC values and improved probability of detection at operationally relevant false-alarm rates. The highest skill is obtained for K mh /K mv ≈ 5000. Seasonal and regional evaluations indicate that the added value of Ri new is largest where turbulence generation involves both vertical and horizontal shear, such as over the contiguous United States and during summer. Ri new remains the best-performing diagnostic in all regions and seasons. Spatial case studies show that Ri new identifies 83–98% of observed moderate-or-greater turbulence events compared with 54–85% for Ri old . This substantial improvement in detection comes with a much smaller increase in false alarms, confirming that Ri new provides a more physically realistic representation of turbulence-prone regions. These results demonstrate that incorporating horizontal wind shear into the Richardson number yields a physically consistent and statistically robust improvement in turbulence diagnostics, with relevance for research and operational applications.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204191057",
+    "message_id": "1542834427858522117",
+    "theme": "seam",
+    "score": 8,
+    "title": "Widespread Divergence Between Precipitation and Discharge Trends Across Global Rivers",
+    "abstract": "Abstract Precipitation is widely perceived to drive river flow (discharge), yet many rivers have experienced declining flow despite increasing precipitation, or vice versa. Here we quantify the prevalence of such diverging trends and identify their drivers. Using the Caravan data set and Theil–Sen regression, we analyzed long‐term trends in precipitation and river discharge at 10,179 sites worldwide (1951–2020). River discharge declined at 48% of sites, while precipitation declined at 52%. Diverging trends occurred at 27% of sites, 40% of which showed declining discharge despite increasing precipitation; their magnitude increased with aridity. A random forest classification model identified the frequency of low (or high) precipitation days and runoff ratio as the most influential drivers of strong divergence, highlighting the importance of precipitation extremes beyond the extensively discussed role of evapotranspiration. These findings reveal widespread decoupling of precipitation and river flow, highlight heightened water risks in drylands, and underscore the need for sustained river discharge monitoring, as precipitation trends alone are insufficient to predict changes in water availability.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204201458",
+    "message_id": "1542834433428824115",
+    "theme": "seam",
+    "score": 8,
+    "title": "Drag‐Controlled Regime Transitions in the Eddy Saturation Mechanism of the Antarctic Circumpolar Current",
+    "abstract": "Abstract Eddy saturation—the weak sensitivity of Antarctic Circumpolar Current (ACC) transport to wind stress—is a fundamental feature of Southern Ocean dynamics, yet the processes that maintain this state remain debated. Previous studies have proposed different mechanisms, including adjustments of eddies and standing meanders, but the conditions under which each mechanism dominates are unclear. Here we use an idealized reentrant channel model to examine how drag strength controls the eddy saturation. When the wind strength relative to friction is below a certain threshold, eddy saturation is governed by a combination of standing meander and eddy adjustments; once the threshold is exceeded, it is governed solely by standing meander adjustment. These results suggest that changes in drag coefficient may account for the divergent eddy saturation mechanisms reported across studies.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7166084374",
+    "message_id": "1542834438814048308",
+    "theme": "seam",
+    "score": 8,
+    "title": "Locating Moonquakes With Single‐Station Seismology",
+    "abstract": "Abstract Renewed international interest in lunar seismometer deployments requires robust single‐station location approach for the highly scattering Moon's crust. We present an event‐location strategy using major lunar event types recorded by the Apollo seismic network. Frequency‐dependent polarization analysis provides P ‐wave back‐azimuth and incidence, which, combined with S – P differential times, enables event localization despite strong scattering. Artificial impacts with known source locations show that epicenter and depth are recovered within 1‐ uncertainty when signal‐to‐noise ratio (SNR) exceeds 2. Natural events with SNR >2 are likewise consistent with previously reported multi‐station locations, demonstrating robust performance across event types. For all events, azimuthal misfit strongly correlates with SNR and shows no systematic dependence on crustal path length. P ‐wave inclination separates deep moonquake nests from shallow events and provides complementary sensitivity to Apollo‐site regolith thickness and seismic wavespeed. This approach is directly applicable to forthcoming lunar missions.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204127501",
+    "message_id": "1542834444270968833",
+    "theme": "seam",
+    "score": 8,
+    "title": "Extended Fire Season Over Eastern Siberia Driven by Accumulated August–September Drought",
+    "abstract": "Abstract Siberian wildfires, a major disturbance to ecosystems and carbon cycles, have intensified in recent decades, yet long‐term changes in fire seasonality remain unclear. Here, using a refined fire‐season framework, we identify a pronounced shift in fire season characteristics over eastern Siberia during 2002–2023, marked by substantial lengthening of the fire season and increasingly clustered occurrence of large fires. The fire season extends primarily through delayed termination of 1.48 days/yr into late autumn, associated with the growing persistence of extremely large September fires and more wildfire ignitions in October. We further find that enhanced fire‐weather conditions are the main driver, arising from accumulated drought associated with precipitation deficits in the preceding August–September period. These deficits coincide with persistent high‐pressure anomalies linked to declining Arctic sea ice and subpolar North Atlantic cooling, underscoring the importance of understanding mechanisms and improving early warning of antecedent hydroclimate in shaping high‐latitude fire‐season dynamics.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7156724297",
+    "message_id": "1542834449878753402",
+    "theme": "seam",
+    "score": 8,
+    "title": "How Modeling Assumptions Shape Predictions of Convective Mixing of Carbon Dioxide",
+    "abstract": "Abstract We investigate how models of fluid properties and boundary conditions influence predictions of convective mixing in confined porous media, with relevance to subsurface carbon dioxide storage. Using high‐resolution simulations at high Rayleigh‐Darcy numbers (O()), we analyze miscible fluids with linear, nonlinear, and non‐monotonic density‐concentration relationships under fixed‐ and free‐interface in 2D and 3D. We show that, across all cases, mixing is quantified by the mean scalar dissipation, providing a unifying framework for convective–diffusive interactions. The density‐concentration relationship affects mixing via the effective density contrast driving convection and the position of the maximum density. Free interfaces enhance early‐time mixing through deformation, while long‐term behavior depends on fluid properties and dimensionality. We demonstrate that simplified modeling assumptions (e.g., monotonic density laws or 2D flow) can lead to deviations in predicted mixing rates of up to O(10–100)%. These results offer guidance for model selection and improving predictions of convective mixing in geophysical systems.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204054648",
+    "message_id": "1542834455390060655",
+    "theme": "seam",
+    "score": 8,
+    "title": "Stratospheric Temperature Adjustment Robustly Damps the State Dependence of CO 2 Radiative Forcing",
+    "abstract": "Abstract The equilibrium climate sensitivity (ECS) depends on background climate state, a phenomenon known as state dependence. Recent studies highlighted state‐dependent CO 2 radiative forcing as a mechanism for ECS state dependence, largely attributing it to enhanced instantaneous forcing ( F INS ) at higher CO 2 . However, about 30% of CO 2 effective radiative forcing comes from atmospheric adjustments, whose role and underlying mechanisms in forcing state dependence remain unclear. We focus on forcing induced by stratospheric temperature adjustment ( F STA ), a dominant component of atmospheric adjustment. Using multi‐model assessment in clear‐sky condition, we show that F STA decreases as CO 2 increases, partially offsetting F INS enhancement, reducing overall forcing state dependence from 40% ( F INS ) to 17% ( F INS + F STA ) under pre‐industrial climatology. We further decompose F STA into multiplicative components and show that the reduction is primarily driven by changes in instantaneous heating rate perturbation, which emerges from reduced stratospheric Planck emission and decreased stratospheric transmissivity in higher CO 2 climate states.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203973813",
+    "message_id": "1542834461354491945",
+    "theme": "seam",
+    "score": 8,
+    "title": "Divergent Forest Cover Changes Dominate Inter‐Model Spread in Near‐Surface Wind Speed Trends Over China",
+    "abstract": "Abstract Near‐surface wind speed (NSWS) regulates the intensity of land‐atmosphere fluxes and the viability of wind energy systems, playing a pivotal role in human adaptation to climate change. However, at the current stage, global climate models exhibit a wide inter‐model spread in NSWS simulations, limiting the reliability of future wind energy projections. Here, we identify the primary drivers of this uncertainty over China. We show that the spread is concentrated in North and Northeast China. Models simulating extensive forest loss exhibit weak or negligible NSWS trends because deforestation smooths the land surface and counteracts the background surface stilling. In contrast, models with limited forest loss or forest gain yield pronounced NSWS declines. This substantial spread is mainly attributable to the varying magnitude of forest cover changes, accounting for approximately 74% of the inter‐model spread. Our findings suggest that constraining forest cover changes is critical for substantially reducing the uncertainty in surface wind projections.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203994664",
+    "message_id": "1542834475929440327",
+    "theme": "seam",
+    "score": 8,
+    "title": "Rapid UAV‐ and Ground‐Based Magnetic Mapping of Subsurface Fractures During a Volcano‐Tectonic Crisis in Grindavík, Iceland",
+    "abstract": "Abstract We applied an integrated UAV‐ and ground‐based magnetometry workflow to map shallow subsurface fractures and cavities in the town of Grindavík during the 2023–2025 volcano‐tectonic crisis. Short‐wavelength linear and semi‐circular magnetic lows delineate open or partially open fractures and localized cavities, including features with no surface expression, verified through field observations, LiDAR surface deformation, and targeted excavations. Several anomalies correspond to reactivated fractures identified through historical aerial imagery. Magnetic forward modeling shows anomaly shapes and amplitudes compatible with fracture and void sources within the upper ∼10–20 m. The approach enabled rapid mapping of major fracture networks in inaccessible terrain, revealing fracture continuity, aperture variability, and branching patterns that guided hazard assessment and emergency response. This study demonstrates the first combined UAV‐ and ground‐based magnetometry application for near real‐time fracture mapping during an urban volcano‐tectonic crisis with implications for rapid hazard response in other tectonically active settings with sufficient magnetic contrast.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7163823877",
+    "message_id": "1542834480996155443",
+    "theme": "seam",
+    "score": 8,
+    "title": "Characteristics of Quasi-stationary Band-shaped Precipitation in the Tohoku Region Detected under Varying Rainfall Thresholds",
+    "abstract": "Abstract Quasi-stationary band-shaped precipitation systems sometimes cause severe rainfall disasters in the Tohoku region of northeastern Japan, but the uniform rainfall thresholds used in existing objective detection methods may be too high for this region. This study examines how the detected sample changes when the rainfall thresholds are relaxed, using radar/raingauge-analyzed precipitation amounts for April--October 2000--2024. Relaxing the thresholds substantially increased the number of detected events and newly identified several damaging events missed under the original setting. However, the relaxed settings did not simply add weaker events: some events detected under the original setting were no longer retained because expanded precipitation areas failed some criteria. Regional distribution and orientation were broadly robust across thresholds, whereas event duration and area increased. Composite analyses using a regional reanalysis suggest that newly detected events tended to occur with weaker low-level moisture inflow and weaker low-pressure disturbances.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203822810",
+    "message_id": "1542834486083981384",
+    "theme": "seam",
+    "score": 8,
+    "title": "Phase transitions in climate network unravel the large-scale onset and withdrawal of Indian monsoon",
+    "abstract": "Abstract The seasonal migration of the planetary-scale convectively coupled system of Intertropical Convergence Zone brings sustained rainfall over the Indian subcontinent and establishes large-scale monsoon. However, to make accurate predictions that support agricultural policies, we must define the onset of sustained rainfall at every location. The necessity of defining the onset of a large-scale phenomenon at a local-scale appears elusive and remains unresolved. Operational definitions are unable to differentiate between large-scale and local onsets, thereby restricting their utility to farmers. We propose a novel trans-disciplinary perspective that separates onsets due to local transient phenomena from true onsets related to the large-scale monsoon system. We view the arrival of monsoon as the emergence of a large-scale persistent organization from the spatiotemporal evolution of clusters of local onsets. Using network science, we track the largest cluster formed by connecting locations in spatial proximity that have undergone local onset. We then define the large-scale onset at one location when that location becomes part of a planetary-scale cluster of onsets. Thus, we establish monsoon as a phase transition in the framework of climate networks. We also discover that climatological monsoon progression over India comprises two abrupt growths in the size of the largest cluster of local onsets delineating the emergence and spatial spread of Indian monsoon. Climatologically, the large-scale onset over peninsular India occurs after a large-scale cluster is established over Northeast India (NEI). The cluster from NEI propagates west and merges with a cluster over the peninsula, establishing a planetary-scale monsoon system that progresses northwards consistently.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W4416011879",
+    "message_id": "1542834491192512594",
+    "theme": "method",
+    "score": 8,
+    "title": "Regularized Fingerprinting with Linearly Optimal Weight Matrix in Detection and Attribution of Climate Change",
+    "abstract": "Abstract Climate change detection and attribution plays a central role in establishing the influence of human activities on global warming. The widely used optimal fingerprinting framework can be formulated as a linear errors-in-variables regression in which the covariance of internal climate variability is estimated from climate model simulations. Existing regularized optimal fingerprinting approaches often underestimate the variance of the scaling factors, leading to confidence intervals that are too narrow and fail to achieve nominal coverage. In this paper, we first propose consistent variance estimators for the regression coefficients within the general class of linear shrinkage weight matrices, thereby addressing the undercoverage problem in conventional methods. Building on this result, we further derive a linearly optimal weight matrix that directly minimizes the asymptotic variances of the estimated scaling factors. Numerical studies confirm improved empirical coverage and shorter interval lengths. When applied to annual mean near-surface air temperature (1951–2020), the proposed method produces narrower and more reliable intervals and provides new insights in detection and attribution across different regional scales.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203741322",
+    "message_id": "1542834496452427859",
+    "theme": "seam",
+    "score": 8,
+    "title": "Seismic Exploration for Magmatic Brine Lenses: An Example From Soufrière Hills Volcano, Montserrat",
+    "abstract": "Abstract The majority of metallic ore deposits are related to processes associated with ancient or modern volcanic systems. Beyond geothermal energy production, volcanoes also represent a potential resource of critical metals, including those required for carbon‐neutral technologies. Geothermal metals occur in subsurface fluid reservoirs fed by surface and magmatic sources. Metals primarily derive from magmatic sources associated with hot, saline brine lenses. Imaging and characterizing such fluid bodies remains challenging. Here, we apply a joint inversion of P ‐, S ‐wave travel times and local earthquake parameters, to image the subsurface of Soufrière Hills Volcano, Montserrat. Analysis of seismic velocities, V P / V S ratio, and hypocenter distributions provide evidence for a subvolcanic, fluid‐saturated, and presumably metal‐rich lens at depths of ∼2–3 km. Our results also show evidence of previously‐confirmed hot and shallower geothermal systems. We discuss the implications of these results for the magmatic source region and the structure of the associated geothermal system.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203782967",
+    "message_id": "1542834501980393544",
+    "theme": "seam",
+    "score": 8,
+    "title": "Particle Size as a Key Remaining Uncertainty in Dust Direct Radiative Effect After EMIT: An Earth System Model Study",
+    "abstract": "Abstract Mineral dust exerts a major but uncertain radiative influence on Earth's climate. Using near‐global mineralogical constraints from NASA's Earth Surface Mineral Dust Source Investigation (EMIT) mission in an Earth system model, we quantify the relative importance of iron‐oxide content and particle size for estimating the dust direct radiative effect (DRE). We show that the shortwave DRE is governed by a nonlinear interaction between the two factors, which jointly determine dust absorption. In contrast, the longwave DRE depends primarily on particle size and is largely insensitive to mineral composition under the assumptions of mixing state and aggregate structure. In the Earth system model, constraining the soil iron‐oxide distribution using EMIT shifts the dominant source of dust DRE uncertainty toward processes controlling atmospheric dust particle size distribution and loading. These findings highlight the importance of improved observational and process‐based constraints on dust size evolution and loading for better quantifying its climate impact.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203669540",
+    "message_id": "1542834507370070050",
+    "theme": "method",
+    "score": 8,
+    "title": "Unifying Observations, Simulations, and Theory for Drizzle Size Distribution Tails",
+    "abstract": "Abstract The onset and rate of drizzle remain open problems in atmospheric physics. This study brings together theory, simulations, and observations to analyze the emergence of power‐law tails in droplet size distributions as a signature of a dynamic steady state with coalescence growth balanced by sedimentation removal. By applying a collector‐mode approximation, analytic solutions are derived, predicting a droplet radius distribution scaling of , assuming a collection kernel . These predictions are validated against large eddy simulations of stratocumulus clouds, which exhibit the expected scaling in the drizzle tail. Furthermore, in situ measurements from stratocumulus clouds sampled during the ACE‐ENA campaign demonstrate robust power‐law behavior in the 30–100 μm range, yielding a power‐law exponent of 4.09. The time to reach this steady state is determined by the growth rate at the minimum size droplets experiencing coalescence.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204220779",
+    "message_id": "1542834513950933083",
+    "theme": "seam",
+    "score": 7,
+    "title": "Evaluation of convective vertical transport properties and their sensitivity to parameterization characteristics",
+    "abstract": "Abstract Deep convection parameterizations remain a major source of uncertainty in global circulation models (GCMs). Key aspects such as the convective trigger function and parameterized updraft structure have been widely studied to improve their representation and, subsequently, reduce downstream GCM biases. Parameterization verification is challenging, however, due to limited observations of in-storm convective properties. This work evaluates the ability of several versions of the Kain-Fritsch (KF) convective parameterization to realistically reproduce vertical and temporal structures of convective transport generated via a large eddy simulation (LES). Four KF modifications were used to quantify the sensitivity of convective transport to perturbations across multiple spatial scales. Modifications included: an unmodified control (origKF), use of lightning data assimilation (LDA) to force convective initiation where lightning was observed, use of LDA coupled with cloud top height assimilation (CTHDA), and LDA with halved entrainment (ENT). Results showed that the LDA significantly strengthened convection, increased updraft mass flux by an order of magnitude compared to origKF, and improved agreement with the LES in vertical and temporal structure, though the overall entrainment remained overestimated. Halving entrainment (ENT) reduced updraft mass flux but had limited impact on precipitation, cloud-top height, or entrainment. The impact of the ENT test on updraft mass flux, despite its extreme nature, was of roughly the same magnitude as the impact of using the LDA. The results from this case study suggest that convective trigger properties, represented by LDA and larger-scale processes, exert greater influence on vertical convective transport than storm-scale properties such as entrainment or cloud top height.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204267603",
+    "message_id": "1542834519160262727",
+    "theme": "seam",
+    "score": 7,
+    "title": "On the limits of Taylor’s hypothesis in forest clearcut flow: Effects of random sweeping and an elliptic model analysis",
+    "abstract": "Abstract Taylor’s hypothesis (TH) converts temporal observations to spatial information of the flow while carrying out measurements on a micrometeorological tower. Other than TH, there exists a more general elliptic model, which converts time to space by focusing on the geometry of the space-time correlation function. In elliptic model, TH is recovered when the space-time correlation functions are straight lines and when TH is invalid, they are approximated as elliptic curves. To test whether TH or an elliptic model was appropriate for a highly heterogeneous forest clearcut flow, we examined the geometry of the space-time correlation function of temperature by using an extensive distributed temperature sensing (DTS) dataset collected during daytime convective conditions at a height of 3.1 m above the clearing. This was complemented with an eddy covariance (EC) dataset that measured the turbulence characteristics. When the mean wind was parallel to a nearby forest edge, the DTS-derived space-time correlation function of temperature fluctuations resembled elliptic curves, rather than straight lines as predicted by TH. Due to large turbulence intensities, the curvatures in the space-time correlation contours were caused by the random sweeping events associated with large-scale eddies that invalidated the frozen turbulence assumption in TH. The velocity scale of these sweeping events correlated with the turbulence kinetic energy of the clearcut flow, thereby lending support to the random sweeping hypothesis. Upon converting time to space through an elliptic and TH-based scaling, our results demonstrated that both temporal DTS and EC temperature measurements were impacted by the random sweeping events.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7138890711",
+    "message_id": "1542834524205883394",
+    "theme": "seam",
+    "score": 7,
+    "title": "Improving Radar Rainfall Estimate with Kalman Filter Based Bias Adjustment Methods",
+    "abstract": "Abstract This study evaluates three real-time Kalman filter (KF) approaches—Mean Field (MKF), Site-Specific (SKF), and a novel Lagrangian (LKF)—to correct radar rainfall estimation biases. While the SKF addresses spatial heterogeneity by applying independent filters per gauge, the LKF uniquely utilizes optical flow to advect the bias correction field alongside moving storms. This prevents the erroneous spatial propagation of large correction factors into trailing light rain areas. Evaluated using a dense gauge network in northern China, the LKF demonstrates superior performance, reducing the raw radar’s systemic bias from − 35.0% to -3.5% while minimizing overall errors. However, these performance improvements diminish rapidly beyond a 10 km distance from the training gauges. Furthermore, an analysis of optimized filter parameters reveals a fundamental physical constraint: the KF breaks down when radar measurement variance (S) exceeds the intrinsic process variance (Q). Because these errors are independent, the filter remains effective only when the observed residual variance is less than 2Q. This demonstrates that dynamic algorithmic corrections cannot compensate for fundamentally degraded radar observations.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204095203",
+    "message_id": "1542834529746550795",
+    "theme": "seam",
+    "score": 7,
+    "title": "SWOT, Empiricism, and River Modeling",
+    "abstract": "Abstract Given the insurmountable challenge of measuring all rivers in situ, global river models serve as the foundation of freshwater knowledge past, present, and future. We adopt an inductive empirical framework based on Surface Water and Ocean Topography (SWOT) satellite measurements to assess these models. After controlling for SWOT data quality, we examine 68,347 individual river reaches representing ∼38% of global discharge. We find river models currently struggle in areas of heavy economic development, multi‐channel rivers, arid areas, and many Arctic rivers. After controlling for these expected errors, we find better skill as rivers get wider and that parts of Siberia and China are particularly difficult to model. We also find large variability and spatial heterogeneity to model performance, resisting oversimplification. Our results suggest that leveraging SWOT observations within river models will improve them, but river models must adapt their structure to represent realistic hydraulics to do so.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7162164807",
+    "message_id": "1542834534926647307",
+    "theme": "seam",
+    "score": 7,
+    "title": "Competing Effects of Elastic Heterogeneity and Viscous Flow on Interseismic Coupling at Cascadia",
+    "abstract": "Abstract Interseismic coupling maps are important tools for estimating future earthquake hazard at subduction zones. Often interseismic coupling is estimated from surface velocities using a homogeneous elastic Earth model. However, inversions that incorporate viscoelastic mantle flow or elastic heterogeneity show that each can change the spatial distribution and magnitude of estimated coupling. We present here a Bayesian inversion of surface deformation for the boundaries of coupling zones at the Cascadia subduction zone that incorporates both elastic heterogeneity and a viscoelastic earthquake cycle model. We find that elastic heterogeneity deepens inferred coupling and worsens fit to surface deformation compared to homogeneous elastic models, but viscoelasticity partly offsets these effects and yields similar coupling and a better fit to the vertical data than homogeneous elastic models. We also find that, of all geometries and viscosities tested, downgoing plate thickness and oceanic mantle viscosity have the greatest impact on modeled displacements and coupling.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204071881",
+    "message_id": "1542834541235019807",
+    "theme": "seam",
+    "score": 7,
+    "title": "Riverine Export of Millennial and Decadal Carbon From the Amazon Basin",
+    "abstract": "Abstract The riverine mobilization and export of OC from different compartments of the terrestrial biosphere such as standing biomass, organic‐rich surface soils and deep mineral soils have contrasting impacts on the carbon cycle. Heretofore, the distribution of these OC sources in river sediments remains poorly constrained, hampering attempts to close the carbon budget of river catchments. Here, we use a time series of radiocarbon measurements to suggest that particulate OC in the Amazon River is composed of ca. 60% plant and soil litter contributions characterized by a turnover of <5 years, mixed with millennial‐age soil OC and minor petrogenic OC contributions. This reflects concomitant organic matter stabilization over millennial timescales in soil horizons via mineral protection and mobilization of abundant primary production from the Amazon rainforest. The Amazon Basin thus holds large reservoirs of millennial and decadal carbon that are susceptible to destabilization upon increasing temperature and deforestation, respectively.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203821654",
+    "message_id": "1542834547291332659",
+    "theme": "seam",
+    "score": 7,
+    "title": "Time‐dependent (Creep) Compaction in Volcanic Rocks",
+    "abstract": "Abstract Porous volcanic rocks form volcanic edifices and host key geothermal reservoirs worldwide. When subjected to constant stress above dilatancy in the brittle regime, these materials undergo time‐dependent failure known as brittle creep. In the ductile regime, where deformation is compactive, time‐dependent compaction—compaction creep—has been documented in sandstones but never in lavas. Here, we present the first experimental investigation of compaction creep in porous lava from Volvic, France. We performed triaxial constant strain rate and compaction creep experiments at an effective pressure of 100 MPa. Our results show that lava accumulates inelastic strain and loses porosity continuously with decreasing rate during creep deformation. Creep strain rates weakly depend on the applied stress, and microstructural observations reveal that time‐dependent compaction localizes into compaction bands. These findings demonstrate that compaction bands can form slowly over extended periods in lava with implications for the long‐term evolution of volcanic systems and geothermal reservoirs.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7203835041",
+    "message_id": "1542834552647450705",
+    "theme": "seam",
+    "score": 7,
+    "title": "A Pure Data‐Driven Fully Distributed Model for Spatially Consistent Streamflow Prediction",
+    "abstract": "Abstract Streamflow prediction is essential for water resources management and flood mitigation but remains challenging in large basins due to spatial heterogeneity. Machine learning (ML) models have been widely applied to streamflow prediction, typically relying on explicit routing modules, whereas the potential of pure ML models remains underexplored. This study presents a purely ML‐based model (Convolutional Entity‐Aware Long Short‐Term Memory) for fully distributed streamflow prediction. Spatial cross‐validation across 50 gauges in the Amazon Basin yields a median Nash‐Sutcliffe Efficiency of 0.73 and an R 2 of 0.84, comparable to or exceeding benchmark models with routing modules. The model reduces annual peak flow bias (APFB = 0.12) and accurately reproduced spatial autocorrelation patterns (Pearson's r > 0.6, Moran's I > 0.8, and Geary's C < 0.2), indicating spatially consistent grid‐scale discharge predictions. These findings demonstrate the potential of a pure data‐driven ML model for fully distributed streamflow prediction in ungauged basins while ensuring spatial consistency.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7154022114",
+    "message_id": "1542983474481336403",
+    "theme": "method",
+    "score": 10,
+    "title": "Identifying and Correcting Inhomogeneities in the Near‐Surface Specific Humidity Record",
+    "abstract": "Abstract There are notable discrepancies between near‐surface humidity trends in observational products as compared to climate models. Here, we explore the extent to which the discrepancy can be explained by inhomogeneities in the observational record. To do so, we apply a validated changepoint detection algorithm to the residual between two observational products, the ERA5 reanalysis and HadISDH station‐based product, and a climate model simulation whose circulation is constrained to match the observations. Based on synthetic data tests, the approach is likely to identify changepoints in excess of 0.32 g/kg, and rarely identifies a changepoint when none is present. For ERA5, we identify changepoints across 31% of the global land area; qualitatively similar results are found for HadISDH. Correcting the inhomogeneities reduces, but does not eliminate, the previously identified discrepancy between model simulations and the historical record.",
+    "reported_date": "2026-08-28"
+  },
+  {
+    "id": "W7204457190",
+    "message_id": "1542983479950843926",
+    "theme": "seam",
+    "score": 9,
+    "title": "Assimilation of Radar Radial Velocity and Polarimetric Observations Using LETKF within MPAS-JEDI: Development of Assimilation Capabilities and Test with an Afternoon Thunderstorm in Taiwan",
+    "abstract": "Abstract A new parameterized polarimetric radar operator (P-PRO) capable of simulating reflectivity ( Z H ), specific differential phase ( K DP ), and differential reflectivity ( Z DR ) is implemented in the Joint Effort for Data assimilation Integration (JEDI), extending its capability to assimilate polarimetric radar observations. The existing radial-velocity ( v r ) observation operator is combined with P-PRO to enable joint assimilation of multiple radar variables. To evaluate the operator and assess the impacts of each variable, data assimilation experiments for a Taiwan afternoon thunderstorm progressively assimilate Z H , v r , K DP , and Z DR using an MPAS-JEDI LETKF configuration. Each assimilated variable primarily improves its corresponding field at analysis time, while the inclusion of v r and K DP leads to more coherent and better-organized convective structures than reflectivity-only assimilation. Statistical diagnostics indicate systematic improvements relative to NoDA across cycles and enhanced short-range forecast skill, with the clearest reductions in forecast error occurring for directly assimilated variables during the first few forecast hours. K DP and Z DR assimilation further contributes to more observation-consistent polarimetric signatures and improved analysis-time storm structure; some forecast improvements are evident, but they are not robustly separable given the single-case design and the limited number of cycles. Overall, these results validate the P-PRO implementation in JEDI and highlight the potential of polarimetric radar assimilation for improving convective-scale analyses, providing a foundation for future multi-case assessments of forecast impacts.",
+    "reported_date": "2026-08-28"
+  }
+]
