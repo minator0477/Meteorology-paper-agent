@@ -29,7 +29,8 @@ jobs:
       - name: Score with Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: claude-haiku-4-5
+          ANTHROPIC_MODEL: claude-haiku-4-5           # 第2段の採点（タイトル+ジャーナルのみ）
+          ANTHROPIC_REASON_MODEL: claude-sonnet-5      # 第3段のおすすめ理由生成（abstract含む）
         run: python scripts/score.py
 
       - name: Report to Discord

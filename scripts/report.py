@@ -1,6 +1,8 @@
 """
 ステップ3: scored.json を Discord に通知する（Webhook, Bot不要）。
-- テーマ別に色分けした embed で送信
+- テーマ別に色分けした embed で送信。ピックアップ方法（method: "keyword" / "llm"）に応じて
+  1行目のバッジ表示を切り替える（🔑キーワード一致 / 🤖LLM採点 score X/10）
+- 先頭メッセージのヘッダーに、キーワード一致 / LLM採点それぞれの件数内訳を表示
 - 送信できた論文の id を seen.json に追記（次回以降は再通知しない）
 Discord 制限に合わせて 1 メッセージ最大 10 embed に分割。
 """
@@ -34,9 +36,13 @@ def load_seen() -> dict:
 
 def to_embed(p: dict) -> dict:
     authors = ", ".join(p["authors"][:3]) + (" ほか" if len(p["authors"]) > 3 else "")
+    if p.get("method") == "keyword":
+        pickup_line = f"🔑 キーワード一致「{p.get('matched_keyword', '')}」  ·  `{p['theme']}`"
+    else:
+        pickup_line = f"🤖 LLM採点  score **{p['score']}/10**  ·  `{p['theme']}`"
     lines = [
         f"**{p['journal']}**  ·  {p['date']}",
-        f"score **{p['score']}/10**  ·  `{p['theme']}`",
+        pickup_line,
         f"{p['reason']}",
         authors,
     ]
@@ -64,10 +70,14 @@ def main() -> None:
         post([], header="今週の新着ヒットはありませんでした。")
         return
 
+    n_keyword = sum(1 for p in scored if p.get("method") == "keyword")
+    n_llm = len(scored) - n_keyword
+
     embeds = [to_embed(p) for p in scored]
     for i in range(0, len(embeds), 10):
         chunk = embeds[i:i + 10]
-        header = (f"今週の面白そうな論文 {len(scored)} 件（score 高い順）"
+        header = (f"今週の面白そうな論文 {len(scored)} 件"
+                  f"（🔑キーワード一致 {n_keyword} 件 / 🤖LLM採点 {n_llm} 件、score 高い順）"
                   if i == 0 else None)
         post(chunk, header=header)
         time.sleep(1)  # レート制限に配慮

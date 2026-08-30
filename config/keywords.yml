@@ -1,0 +1,68 @@
+# ============================================================
+#  キーワード一致による自動ピックアップ
+#  - タイトルに、以下のいずれか1語でも含まれれば
+#    LLM 採点を経ずに「面白そう」として即座に拾う（score.py 第1段）
+#  - 大文字小文字は区別しない部分一致
+#  - 複数テーマに一致する場合は、このファイルの上から順に最初に一致した
+#    テーマを採用する（seam を最優先）
+#  - ここに一致しなかった残りの候補だけが LLM 採点（第2段）に回る
+# ============================================================
+
+seam:
+  - "teleconnection"
+  - "tropical-midlatitude interaction"
+  - "tropical–midlatitude interaction"
+  - "PJ pattern"
+  - "Pacific-Japan pattern"
+  - "Pacific–Japan pattern"
+  - "Silk Road pattern"
+  - "circumglobal teleconnection"
+  - "PNA pattern"
+  - "wave activity flux"
+
+tropical:
+  - "MJO"
+  - "Madden-Julian"
+  - "Madden–Julian"
+  - "BSISO"
+  - "ENSO"
+  - "El Nino"
+  - "El Niño"
+  - "La Nina"
+  - "La Niña"
+  - "Indian Ocean Dipole"
+  - " IOD "
+  - "Modoki"
+  - "monsoon"
+  - "モンスーン"
+
+midlatitude:
+  - "storm track"
+  - "storm-track"
+  - "ストームトラック"
+  - "bomb cyclone"
+  - "explosive cyclogenesis"
+  - "爆弾低気圧"
+  - "baroclinic instability"
+  - "傾圧不安定"
+  - "eddy-driven jet"
+  - "downstream development"
+  - "下流発達"
+  - "blocking"
+  - "ブロッキング"
+  - "NAO"
+  - "North Atlantic Oscillation"
+  - "Arctic Oscillation"
+  - "Western Pacific pattern"
+  - "Eurasian pattern"
+
+regional:
+  - "Baiu"
+  - "Meiyu"
+  - "梅雨前線"
+  - "線状降水帯"
+  - "linear precipitation band"
+
+method:
+  - "event attribution"
+  - "イベントアトリビューション"
