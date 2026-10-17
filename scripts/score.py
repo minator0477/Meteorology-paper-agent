@@ -44,7 +44,7 @@ API_KEY = os.environ["ANTHROPIC_API_KEY"]
 # 第2段（採点）: 軽量・低コストな Haiku。タイトル+ジャーナル名のみで判断させる。
 SCORE_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 # 第3段（おすすめ理由生成）: 採用が決まった論文だけが対象なので、abstract も渡して Sonnet に書かせる。
-REASON_MODEL = os.environ.get("ANTHROPIC_REASON_MODEL", "claude-sonnet-5")
+REASON_MODEL = os.environ.get("ANTHROPIC_REASON_MODEL", "claude-sonnet-5-5")
 
 SYSTEM = f"""あなたは研究者の論文キュレーターです。以下の興味プロファイルに照らして、
 渡された論文が「その研究者にとって面白いか」を厳しめに 0-10 で採点します。

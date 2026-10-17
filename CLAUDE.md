@@ -53,7 +53,7 @@ Three sequential scripts, each reading the previous step's JSON output:
      fail to parse. Only these are filtered against `min_score`; the `reason` it returns here is a
      throwaway fallback (see Stage 3).
    - **Stage 3 (recommendation reason, Sonnet)** — only papers that cleared `min_score` in Stage 2
-     go to a second Claude call (model `ANTHROPIC_REASON_MODEL`, default `claude-sonnet-5` — only
+     go to a second Claude call (model `ANTHROPIC_REASON_MODEL`, default `claude-sonnet-5-5` — only
      runs over the small kept subset, so the higher-quality/cost model is affordable here), this
      time **including the abstract**, asking for a better-written recommendation reason grounded in
      `interests.md`. On success this overwrites `reason` for that paper; on failure (call or JSON
@@ -99,7 +99,7 @@ upstream JSON file exists.
 - `ANTHROPIC_API_KEY` — required by `score.py`.
 - `ANTHROPIC_MODEL` — optional, defaults to `claude-haiku-4-5`. Used for `score.py`'s Stage 2
   scoring call (runs over every keyword-unmatched candidate, so kept cheap).
-- `ANTHROPIC_REASON_MODEL` — optional, defaults to `claude-sonnet-5`. Used for `score.py`'s Stage 3
+- `ANTHROPIC_REASON_MODEL` — optional, defaults to `claude-sonnet-5-5`. Used for `score.py`'s Stage 3
   recommendation-reason call (runs only over the papers actually being kept, so a stronger/pricier
   model is affordable there).
 - `DISCORD_WEBHOOK_URL` — required by `report.py`.
